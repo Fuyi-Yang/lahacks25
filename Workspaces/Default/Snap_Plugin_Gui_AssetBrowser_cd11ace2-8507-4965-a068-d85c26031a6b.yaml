@@ -1,5 +1,52 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 0
+    size: 46
+    values:
+      - models/therapist_sitting.fbx
+      - models/therapist_sitting.fbx/.hidden
+      - models/therapist_sitting.fbx/.hidden/Ch02_body
+      - models/therapist_sitting.fbx/.hidden/white
+      - models/therapist_sitting.fbx/Animations
+      - models/therapist_sitting.fbx/Animations/Take 001
+      - models/therapist_sitting.fbx/Animations/mixamo.com
+      - models/therapist_sitting.fbx/Materials
+      - models/therapist_sitting.fbx/Materials/Ch02_body
+      - models/therapist_sitting.fbx/Materials/Ch02_hair
+      - models/therapist_sitting.fbx/Meshes
+      - models/therapist_sitting.fbx/Meshes/Ch02_Body
+      - models/therapist_sitting.fbx/Meshes/Ch02_Cloth
+      - models/therapist_sitting.fbx/Meshes/Ch02_Eyelashes
+      - models/therapist_sitting.fbx/Meshes/Ch02_Hair
+      - models/therapist_sitting.fbx/Meshes/Ch02_Sneakers
+      - models/therapist_sitting.fbx/Meshes/Ch02_Socks
+      - models/therapist_sitting.fbx/Textures
+      - models/therapist_sitting.fbx/Textures/Ch02_1001_Diffuse
+      - models/therapist_sitting.fbx/Textures/Ch02_1001_Normal
+      - models/therapist_sitting.fbx/Textures/Ch02_1002_Diffuse
+      - models/therapist_sitting.fbx/Textures/Ch02_1002_Normal
+      - models/therapist_sitting.fbx/therapist_sitting
+      - models/therapist_standing.fbx
+      - models/therapist_standing.fbx/.hidden
+      - models/therapist_standing.fbx/.hidden/Ch26_body
+      - models/therapist_standing.fbx/.hidden/white
+      - models/therapist_standing.fbx/Animations
+      - models/therapist_standing.fbx/Animations/Take 001
+      - models/therapist_standing.fbx/Animations/mixamo.com
+      - models/therapist_standing.fbx/Materials
+      - models/therapist_standing.fbx/Materials/Ch26_body
+      - models/therapist_standing.fbx/Materials/Ch26_hair
+      - models/therapist_standing.fbx/Meshes
+      - models/therapist_standing.fbx/Meshes/Ch26_Body
+      - models/therapist_standing.fbx/Meshes/Ch26_Eyelashes
+      - models/therapist_standing.fbx/Meshes/Ch26_Hair
+      - models/therapist_standing.fbx/Meshes/Ch26_Heels
+      - models/therapist_standing.fbx/Meshes/Ch26_Shirt
+      - models/therapist_standing.fbx/Meshes/Ch26__Pants
+      - models/therapist_standing.fbx/Textures
+      - models/therapist_standing.fbx/Textures/Ch26_1001_Diffuse
+      - models/therapist_standing.fbx/Textures/Ch26_1001_Normal
+      - models/therapist_standing.fbx/Textures/Ch26_1002_Diffuse
+      - models/therapist_standing.fbx/Textures/Ch26_1002_Normal
+      - models/therapist_standing.fbx/therapist_standing
   options: 4
