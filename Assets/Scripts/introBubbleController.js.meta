@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/cf77fff8-c855-400f-a1ae-f7d227b8b946>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3387427f-82fd-4b32-80b9-cabcc9f3d12f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3387427f-82fd-4b32-80b9-cabcc9f3d12f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bc20b792-3179-48c1-ad08-efddfc32f6b0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bc20b792-3179-48c1-ad08-efddfc32f6b0>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e7c2b4bf-4960-4a78-b28e-798a47f2c5b2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bubblePrefab: false
+    bubbleSitting: false
+    bubbleStanding: false
+    canvasTransform: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - bubbleStanding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bubbleSitting: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bubblePrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      canvasTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

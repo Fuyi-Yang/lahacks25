@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/bad498ef-c924-49c0-83ca-d611d675b371>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f63d817e-d23e-45d3-8811-db1c4201361f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f63d817e-d23e-45d3-8811-db1c4201361f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4555f8b5-fedb-4278-bc9a-7fd645ff1b30
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4555f8b5-fedb-4278-bc9a-7fd645ff1b30>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: cc92bd18-0504-4a26-9e6e-7c21c5315080
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    idleAnimationName: false
+    talkingAnimationName: false
+    therapistAnimationMixer: false
+    therapistModel: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - therapistModel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      therapistAnimationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      idleAnimationName: Idle
+      talkingAnimationName: Talking
+  ScriptTypes:
+    -
+      {}

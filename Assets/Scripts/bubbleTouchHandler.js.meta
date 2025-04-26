@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/4b3e6fc2-6169-4218-b7b8-1c6af085814d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0ebc8e5b-dc9b-400c-a79f-b9108982dbbe
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0ebc8e5b-dc9b-400c-a79f-b9108982dbbe
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 12093786-9996-4885-91a0-4ea3f611be4b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/12093786-9996-4885-91a0-4ea3f611be4b>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: edbad3ec-d7ba-4be1-af6a-b9044842bebc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bubbleSitting: false
+    bubbleStanding: false
+    therapistSitting: false
+    therapistStanding: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - bubbleStanding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bubbleSitting: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      therapistStanding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      therapistSitting: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      buttonIndex: 0
+      already: !<RequiredType.you> 00000000-0000-0000-0000-000000000000
+      targetPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
