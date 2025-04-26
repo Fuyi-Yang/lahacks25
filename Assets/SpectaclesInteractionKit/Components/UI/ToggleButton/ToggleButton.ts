@@ -44,6 +44,7 @@ export class ToggleButton extends BaseScriptComponent {
   public readonly onStateChanged = this.onStateChangedEvent.publicApi()
 
   onAwake() {
+    print("hello");
     this.interactable = this.getSceneObject().getComponent(
       Interactable.getTypeName(),
     )

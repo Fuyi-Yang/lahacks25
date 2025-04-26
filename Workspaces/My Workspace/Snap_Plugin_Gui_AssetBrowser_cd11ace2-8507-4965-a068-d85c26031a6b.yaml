@@ -1,10 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 633
+    size: 641
     values:
       - Base.png
+      - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
+      - Echopark.hdr/Diffuse
+      - Echopark.hdr/Specular
       - Prefabs/Button.prefab
       - Prefabs/therapist_sitting.fbx
       - Prefabs/therapist_sitting.fbx/.hidden
@@ -52,14 +55,14 @@ CollapsedEntities:
       - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Diffuse
       - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Normal
       - Prefabs/therapist_standing.fbx/therapist_standing
-      - Scripts
-      - Scripts/ButtonTogglePatch
+      - Render Target.renderTarget
+      - Scene.scene
       - Scripts/PageController.js
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js
-      - Scripts/bubbleTouchHandler.js
       - Scripts/introBubbleController.js
       - Scripts/therapistAgentScript.js
+      - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
@@ -82,6 +85,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnDefault.mat
       - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnIcon.mat
       - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnSelect.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI
       - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ButtonHover.mat
       - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ButtonIdle.mat
       - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ButtonPinched.mat
@@ -116,6 +120,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
       - SpectaclesInteractionKit/Assets/Materials/TargetOutlineMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/Text3DDefault.mat
+      - SpectaclesInteractionKit/Assets/Meshes
       - SpectaclesInteractionKit/Assets/Meshes/BoxMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/ButtonCapsuleMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/ButtonSphereMesh.mesh
@@ -226,6 +231,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Helpers/ScrollBarFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/SliderFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/ToggleFeedback.ts
+      - SpectaclesInteractionKit/Components/Interaction
       - SpectaclesInteractionKit/Components/Interaction/Billboard
       - SpectaclesInteractionKit/Components/Interaction/Billboard/Billboard.ts
       - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardController.ts
@@ -329,7 +335,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/Slider/Slider.ts
       - SpectaclesInteractionKit/Components/UI/ToggleButton
       - SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
-      - SpectaclesInteractionKit/Core
       - SpectaclesInteractionKit/Core/ConfigurationValidator
       - SpectaclesInteractionKit/Core/ConfigurationValidator/ConfigurationValidator.ts
       - SpectaclesInteractionKit/Core/HandInteractor
@@ -350,7 +355,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/Interactor/MouseTargetProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/PokeTargetProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/RayProvider.ts
-      - SpectaclesInteractionKit/Core/Interactor/TouchRayProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/AxisAngle.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/ContinousIrInteractionTransition.ts
@@ -376,6 +380,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
       - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
+      - SpectaclesInteractionKit/Examples
       - SpectaclesInteractionKit/Examples/RocketWorkshop
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
@@ -547,6 +552,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.ss_graph
       - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/stripe_noise 2.png
       - SpectaclesInteractionKit/Examples/SIK Examples.prefab
+      - SpectaclesInteractionKit/Prefabs
       - SpectaclesInteractionKit/Prefabs/ScrollViewListItem.prefab
       - SpectaclesInteractionKit/Prefabs/SpectaclesInteractionKit.prefab
       - SpectaclesInteractionKit/Providers
@@ -635,5 +641,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - UI Panel.lsc
+      - UI Toggle.lsc
       - simple_pbr.ss_graph
   options: 4
