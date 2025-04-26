@@ -14,8 +14,8 @@ dock:
             type: section
             current: 0
         sizes:
-          - 496
-          - 476
+          - 484
+          - 342
         type: splitter
         orientation: vertical
       - items:
@@ -30,13 +30,15 @@ dock:
             type: section
             current: 0
         sizes:
-          - 758
-          - 214
+          - 492
+          - 334
         type: splitter
         orientation: vertical
       - items:
           - persistentName: Snap.Plugin.Gui.InspectorPanel
             Uuid: 780d9164-e681-4de1-b586-5213ed5523b9
+          - persistentName: Snap.Plugin.Gui.ScriptEditorPanel
+            Uuid: 3d61b82f-4eb5-47ec-8486-fef389c08395
         type: section
         current: 0
       - items:
@@ -47,9 +49,16 @@ dock:
         type: section
         current: 0
     sizes:
+<<<<<<< HEAD
       - 358
       - 673
       - 494
       - 378
+=======
+      - 398
+      - 258
+      - 384
+      - 479
+>>>>>>> refs/remotes/origin/speech-text
     type: splitter
     orientation: horizontal

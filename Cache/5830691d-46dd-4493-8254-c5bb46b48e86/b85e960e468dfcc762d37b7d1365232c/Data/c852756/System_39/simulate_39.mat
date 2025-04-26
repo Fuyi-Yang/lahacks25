@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 - !<Material/8af6bbb0-f5de-4b54-93fa-56d9cfd3bf64>
   PackagePath: ""
   PassesInfo:
     - !<own> e2516223-bed9-4a69-b8c2-4eac7b784529
   Name: Material_Simulate
 - !<PassInfo/e2516223-bed9-4a69-b8c2-4eac7b784529>
+=======
+- !<Material/bdc1ecc9-bc52-4741-a8c9-7c9fe3a5247c>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 9d506821-2e21-410d-9f19-6d1a8a6ad42e
+  Name: Material_Simulate
+- !<PassInfo/9d506821-2e21-410d-9f19-6d1a8a6ad42e>
+>>>>>>> refs/remotes/origin/speech-text
   CachedProperties:
     []
   DepthWrite: false

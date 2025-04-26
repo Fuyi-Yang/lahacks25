@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 - !<Material/4cceb021-1885-4bb3-a5fa-ed21d16b5280>
   PackagePath: ""
   PassesInfo:
     - !<own> 6e81a4a3-98e2-453d-9436-dcf2be9a4579
   Name: Material_Feedback
 - !<PassInfo/6e81a4a3-98e2-453d-9436-dcf2be9a4579>
+=======
+- !<Material/18f634cb-7413-49ad-93a6-8adf3c1e9b2e>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 09c257af-d4d4-49de-a1f9-df376fd1491a
+  Name: Material_Feedback
+- !<PassInfo/09c257af-d4d4-49de-a1f9-df376fd1491a>
+>>>>>>> refs/remotes/origin/speech-text
   CachedProperties:
     []
   DepthWrite: false

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 - !<Material/08923732-adcb-480e-a221-50b62751e2a2>
   PackagePath: ""
   PassesInfo:
     - !<own> 5494ac91-9985-4883-a970-7e13bfaa6d76
   Name: Material_Render
 - !<PassInfo/5494ac91-9985-4883-a970-7e13bfaa6d76>
+=======
+- !<Material/8e1de72d-812a-4fd0-88ae-f5f61aecde45>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> b763b515-6799-4aa3-af6e-cfc725f3dbf8
+  Name: Material_Render
+- !<PassInfo/b763b515-6799-4aa3-af6e-cfc725f3dbf8>
+>>>>>>> refs/remotes/origin/speech-text
   CachedProperties:
     - renderTarget0:
         typeIdx: 9
