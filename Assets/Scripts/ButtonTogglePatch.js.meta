@@ -1,39 +1,39 @@
-- !<AssetImportMetadata/a097882c-4c53-46f4-b599-eb9cb30f7b87>
+- !<AssetImportMetadata/99500573-e487-4534-ae88-e4f0f4a210ef>
   ImportedAssetIds:
-    TypeScriptAsset: !<reference> 8de630cc-5fe9-4911-b481-9bb5499ca50d
-  ImporterName: TypeScriptAssetImporter
-  PrimaryAsset: !<reference> 8de630cc-5fe9-4911-b481-9bb5499ca50d
+    JavaScriptAsset: !<reference> 791a44ca-64a2-4ec7-bdca-e3a0395db455
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 791a44ca-64a2-4ec7-bdca-e3a0395db455
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    TypeScriptAsset: !<own> 040141bd-04ac-43f2-9204-e9aa649ae115
+    JavaScriptAsset: !<own> c57305e2-666c-475b-9557-1706945d2015
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<TypeScriptAssetData/040141bd-04ac-43f2-9204-e9aa649ae115>
+- !<ScriptAssetData/c57305e2-666c-475b-9557-1706945d2015>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: d5302bca-c0f2-4494-9e75-28b341a8c6f0
+  ComponentUid: c9164e32-774f-484b-8967-82795b450011
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    targetPrefab: false
+    pageController: false
+    touchComp: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - targetPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - touchComp: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      pageController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
-  InputLines:
-    - // @input SceneObject targetPrefab

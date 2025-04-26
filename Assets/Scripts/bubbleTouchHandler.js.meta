@@ -26,10 +26,8 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    bubbleSitting: false
-    bubbleStanding: false
-    therapistSitting: false
-    therapistStanding: false
+    button: false
+    targetSceneObject: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
@@ -41,6 +39,8 @@
       buttonIndex: 0
       already: !<RequiredType.you> 00000000-0000-0000-0000-000000000000
       targetPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      button: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

@@ -1,38 +1,46 @@
-//@input SceneObject bubbleStanding
-//@input SceneObject bubbleSitting
-//@input SceneObject therapistStanding
-//@input SceneObject therapistSitting
+// ButtonToggleComponent.js
+// Attach this script as a component to your Button SceneObject
+// Configure the following inputs in the Inspector:
+//   button               - the Button SceneObject this script is added to
+//   targetSceneObject    - the SceneObject to enable when the button is touched
 
-// Called when Standing bubble is touched
-function onStandingSelected() {
-  script.bubbleStanding.enabled = false;
-  script.bubbleSitting.enabled = false;
+// @input SceneObject button
+// @input SceneObject targetSceneObject
 
-  script.therapistStanding.enabled = true;
-  script.therapistSitting.enabled = false;
+/**
+ * Called when the button is touched. Disables the button and enables the target object.
+ */
+function onButtonTouched() {
+    // Disable the button so it can't be touched again
+    if (script.button) {
+        script.button.enabled = false;
+    }
+
+    // Enable the target scene object
+    if (script.targetSceneObject) {
+        script.targetSceneObject.enabled = true;
+    }
 }
 
-// Called when Sitting bubble is touched
-function onSittingSelected() {
-  script.bubbleStanding.enabled = false;
-  script.bubbleSitting.enabled = false;
+/**
+ * Binds the TouchComponent on the configured button to the onButtonTouched handler.
+ */
+function setupTouchEvent() {
+    if (!script.button) {
+        print("[ButtonToggleComponent] Error: 'button' input is not assigned.");
+        return;
+    }
 
-  script.therapistStanding.enabled = false;
-  script.therapistSitting.enabled = true;
+    // Get or add a TouchComponent
+    var touchComp = script.button.getComponent("TouchComponent");
+    if (!touchComp) {
+        print("[ButtonToggleComponent] Warning: TouchComponent not found on the button. Adding one.");
+        touchComp = script.button.createComponent("TouchComponent");
+    }
+
+    // Bind the touch start event
+    touchComp.onTouchStart.add(onButtonTouched);
 }
 
-// Bind touch events
-function setupTouchEvents() {
-  var standingTouch = script.bubbleStanding.getComponent("TouchComponent");
-  var sittingTouch = script.bubbleSitting.getComponent("TouchComponent");
-
-  if (standingTouch) {
-    standingTouch.onTouchStart.add(onStandingSelected);
-  }
-  if (sittingTouch) {
-    sittingTouch.onTouchStart.add(onSittingSelected);
-  }
-}
-
-setupTouchEvents();
-
+// Initialize event binding
+setupTouchEvent();
