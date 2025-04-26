@@ -1,0 +1,21 @@
+- !<ObjectPrefab/bf6cfb52-8d4d-4037-9b09-8b051e23f250>
+  PackagePath: ""
+  objects:
+    - !<own> 82179ccb-f188-4a96-9d87-6f6a2353b689
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/82179ccb-f188-4a96-9d87-6f6a2353b689>
+  PrefabRemaps:
+    []
+  Name: BubbleStanding
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

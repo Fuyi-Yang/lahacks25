@@ -1,27 +1,27 @@
-- !<AssetImportMetadata/bf2d3d96-bc36-4b71-9478-cab72d1034db>
+- !<AssetImportMetadata/d310f24b-7825-4518-bde3-b43bb251b7a8>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> 1357a020-06e5-4df0-ba8e-ba4d0b8dd1a0
+    JavaScriptAsset: !<reference> bf40b5e5-a007-4959-a733-1f04f5a92e2f
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> 1357a020-06e5-4df0-ba8e-ba4d0b8dd1a0
+  PrimaryAsset: !<reference> bf40b5e5-a007-4959-a733-1f04f5a92e2f
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    JavaScriptAsset: !<own> e4d606fc-4db5-45fa-a580-a374697ac74b
+    JavaScriptAsset: !<own> 572ad650-3762-4811-aeba-0d2d49918881
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/e4d606fc-4db5-45fa-a580-a374697ac74b>
+- !<ScriptAssetData/572ad650-3762-4811-aeba-0d2d49918881>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 1a1067b5-d42e-4d46-b8b9-2a2253eb4c76
+  ComponentUid: f09da282-308a-4ed9-85b2-a7511b8c109e
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -30,6 +30,8 @@
     bubbleStanding: false
     therapistSitting: false
     therapistStanding: false
+    standingButtonScript: false
+    sittingButtonScript: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
@@ -38,6 +40,8 @@
       bubbleSitting: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       therapistStanding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       therapistSitting: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      standingButtonScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sittingButtonScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
