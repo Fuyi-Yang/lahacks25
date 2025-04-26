@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 633
+    size: 632
     values:
       - Base.png
       - Echopark.hdr
@@ -52,8 +52,6 @@ CollapsedEntities:
       - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Diffuse
       - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Normal
       - Prefabs/therapist_standing.fbx/therapist_standing
-      - Scripts
-      - Scripts/ButtonTogglePatch
       - Scripts/PageController.js
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js
@@ -116,6 +114,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
       - SpectaclesInteractionKit/Assets/Materials/TargetOutlineMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/Text3DDefault.mat
+      - SpectaclesInteractionKit/Assets/Meshes
       - SpectaclesInteractionKit/Assets/Meshes/BoxMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/ButtonCapsuleMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/ButtonSphereMesh.mesh
