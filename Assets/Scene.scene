@@ -25,7 +25,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: 40.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -34,6 +34,7 @@
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
     - !<own> e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1
+    - !<own> fe2ee681-b6a7-43fa-9163-06d1f3bee0fc
 - !<Camera/00000000-0000-0065-0000-000000000065>
   PrefabRemaps:
     []
@@ -1264,8 +1265,8 @@
   Enabled: true
   AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
   EnableAutoplayLoop: false
-  Volume: 0.600000
-  EnableMixToSnap: true
+  Volume: 1.000000
+  EnableMixToSnap: false
   RecordVolume: 0.600000
   EnableSpatialAudio: false
   EnableDistanceEffect: true
@@ -6424,10 +6425,10 @@
     []
   Name: Text
   Enabled: true
-  RenderOrder: 0
+  RenderOrder: 1
   StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
@@ -6436,15 +6437,15 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 40
   Font: !<reference> 00000000-0000-0000-0000-000000000000
   LayoutRect:
-    left: -7.500000
+    left: -10.000000
     bottom: -2.250000
-    right: 7.500000
+    right: 10.000000
     top: 2.250000
-  OverflowVertical: Overflow
-  OverflowHorizontal: Overflow
+  OverflowVertical: Truncate
+  OverflowHorizontal: Wrap
   Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -6788,20 +6789,16 @@
   Enabled: true
   ScriptAsset: !<reference> a2d78a35-48b1-46fc-a7dd-034e0f0978ed
   ScriptInputsDefault:
-    textInput: true
-    textOutput: true
-    image: true
-    ttsComponent: true
-    interactableObject: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      textOutput: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      ttsComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textInput: !<reference.Text> 55bf94ea-57af-4aec-b7aa-117465e1191c
+      textOutput: !<reference.Text> e488503b-7b41-4d56-aa6d-cb25064f0e5c
+      image: !<reference.Image> 14b86784-7d9a-43b1-8c21-7b9110bd6b06
+      ttsComponent: !<reference.ScriptComponent> aa6f8676-62c7-4e68-8a1b-e21995268810
+      interactableObject: !<reference.SceneObject> 95db6dd0-ed1a-4897-9e9b-b14b161c6e75
   ScriptTypes:
     "":
       {}
@@ -9307,7 +9304,7 @@
 - !<SceneObject/8196796b-8b84-4bd5-bc28-3a68d9235674>
   PrefabRemaps:
     []
-  Name: Frame
+  Name: "[EXAMPLES] Simple UI"
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -12514,16 +12511,14 @@
   Enabled: true
   ScriptAsset: !<reference> 0554ad12-8a48-46a5-a97f-3aa1ee1d60ab
   ScriptInputsDefault:
-    audioComponent: true
-    audioOutputAsset: true
-    voice: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-      audioOutputAsset: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
-      voice: ""
+      audioComponent: !<reference.AudioComponent> d1d7b0c3-b04d-454a-ad3a-f1b3eff16112
+      audioOutputAsset: !<reference.AudioTrackAsset> 6303905e-658b-44fb-9339-1754e6337c6b
+      voice: alloy
   ScriptTypes:
     "":
       {}
@@ -12657,7 +12652,7 @@
 - !<SceneObject/abe75582-9ade-43c6-92ae-118f5837c55e>
   PrefabRemaps:
     []
-  Name: ContainerFrame
+  Name: ContainerFrameUI
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -13585,12 +13580,12 @@
   Enabled: true
   ScriptAsset: !<reference> 5a990382-ab25-4de7-9537-72d4947bf9b4
   ScriptInputsDefault:
-    uiImage: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      uiImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      uiImage: !<reference.Image> 14b86784-7d9a-43b1-8c21-7b9110bd6b06
   ScriptTypes:
     "":
       {}
@@ -14992,12 +14987,12 @@
   Enabled: true
   ScriptAsset: !<reference> 4356d89a-70ef-449a-8559-54a9873b1ee1
   ScriptInputsDefault:
-    textInput: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textInput: !<reference.Text> 55bf94ea-57af-4aec-b7aa-117465e1191c
   ScriptTypes:
     "":
       {}
@@ -15204,6 +15199,23 @@
     - !<own> 5189e40c-16fd-47f2-b577-f2241e8a668f
     - !<own> 73854d34-7b2d-4db3-be75-7de21aa43f89
     - !<own> a131b577-25ad-4371-a01a-da5d3db6e29b
+- !<AudioComponent/d1d7b0c3-b04d-454a-ad3a-f1b3eff16112>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/d22b5c12-70d5-4939-b3ea-649f38eff161>
   PrefabRemaps:
     []
@@ -15419,6 +15431,7 @@
     []
   Components:
     - !<own> aa6f8676-62c7-4e68-8a1b-e21995268810
+    - !<own> d1d7b0c3-b04d-454a-ad3a-f1b3eff16112
 - !<ScreenTransform/d6be8863-4186-45bb-b2b4-0e94a87037ea>
   PrefabRemaps:
     []
@@ -16224,8 +16237,8 @@
   Enabled: true
   RenderOrder: 0
   StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
@@ -16236,15 +16249,15 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 40
   Font: !<reference> 00000000-0000-0000-0000-000000000000
   LayoutRect:
-    left: -7.500000
-    bottom: -2.250000
-    right: 7.500000
-    top: 2.250000
-  OverflowVertical: Overflow
-  OverflowHorizontal: Overflow
+    left: -10.000000
+    bottom: -5.000000
+    right: 10.000000
+    top: 5.000000
+  OverflowVertical: Truncate
+  OverflowHorizontal: Wrap
   Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -16274,7 +16287,7 @@
     OffsetX: 0.250000
     OffsetY: 0.250000
   Background: !<BackgroundSettings>
-    Enabled: false
+    Enabled: true
     Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
@@ -16283,10 +16296,10 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Margins:
-      left: 0.000000
-      bottom: 0.000000
-      right: 0.000000
-      top: 0.000000
+      left: 0.250000
+      bottom: 0.100000
+      right: 0.250000
+      top: 0.100000
     CornerRadius: 0.000000
   AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18371,6 +18384,11 @@
     - !<own> 9115b7e9-705d-4cfb-806c-515adb2edd66
   Components:
     []
+- !<AudioListenerComponent/fe2ee681-b6a7-43fa-9163-06d1f3bee0fc>
+  PrefabRemaps:
+    []
+  Name: Audio Listener
+  Enabled: true
 - !<SceneObject/fec5414e-bc42-47bd-b070-e99a804072b3>
   PrefabRemaps:
     []

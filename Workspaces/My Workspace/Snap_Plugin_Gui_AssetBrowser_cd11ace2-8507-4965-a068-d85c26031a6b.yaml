@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 632
+    size: 633
     values:
       - Base.png
       - Echopark.hdr
@@ -52,6 +52,7 @@ CollapsedEntities:
       - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Diffuse
       - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Normal
       - Prefabs/therapist_standing.fbx/therapist_standing
+      - Scripts/Audio Output.audioOutput
       - Scripts/PageController.js
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js
