@@ -4,12 +4,12 @@
 # Please do not modify them manually, as changes will be overwritten each time!
 # If you want to make changes to this file, please put them either above or below this section.
 
-Cache/**
-PluginsUserPreferences/**
-Support/**
-BackUp/**
-Workspaces/**
-.vscode/**
+Cache/
+PluginsUserPreferences/
+Support/
+BackUp/
+Workspaces/
+.vscode/
 jsconfig.json
 tsconfig.json
 .DS_Store
