@@ -5,8 +5,9 @@ app = Flask(__name__)
 @app.route('/greet', methods=['POST', 'GET'])
 def handle_post():
     print("hello")
-    name = request.args.get('name')
-    print(name)
+    data = request.get_json()
+    print(data)
+    name = data["user"]["name"]
     return {"message": f"Hello, {name}!"}, 200
 
 if __name__ == '__main__':

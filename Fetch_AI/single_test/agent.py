@@ -24,7 +24,7 @@ if not API_TOKEN:
 
 # Set up tools and LLM
 tools = [TavilySearchResults(max_results=3)]
-model = ChatOpenAI(temperature=0)
+model = ChatOpenAI()
 
 # LangGraph-based executor
 app = chat_agent_executor.create_tool_calling_executor(model, tools)

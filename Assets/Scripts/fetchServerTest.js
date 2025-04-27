@@ -45,13 +45,21 @@ function onStart() {
 
 async function handleTriggerEnd(eventData) {
     print("wooo");
-    let url = "https://0640-164-67-70-232.ngrok-free.app/greet?name=Alex";
+    let url = "https://a2be-164-67-70-232.ngrok-free.app/greet";
     let request = new Request(url, {
-        method: "GET",
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify({
+            "user": {
+                "name": "Alice",
+                "career": "Developer"
+            }
+        })
     });
+    
+
     await remoteServiceModule.fetch(request)
         .then((response) => response.json())
         .then((data) => {
