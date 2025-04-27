@@ -46,7 +46,7 @@ function showPage(idx) {
         // …and reparent/reset position if desired…
     }
     var chatXform = script.chatScreen.getTransform();
-    if (idx === 0) {
+    if (idx === 0 || idx == 3) {
         // shove it way off-canvas
         chatXform.setLocalPosition(new vec3(0, -10000, 0));
     } else {

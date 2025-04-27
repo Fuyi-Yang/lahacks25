@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 606
+    size: 700
     values:
       - Base 2.png
       - Base.png
@@ -13,8 +13,30 @@ CollapsedEntities:
       - MaterialParams.png
       - Normal.png
       - PBR.mat
+      - Prefabs/AnimatedDog.fbx
+      - Prefabs/AnimatedDog.fbx/.hidden
+      - Prefabs/AnimatedDog.fbx/.hidden/Material_0
+      - Prefabs/AnimatedDog.fbx/.hidden/white
+      - Prefabs/AnimatedDog.fbx/AnimatedDog
+      - Prefabs/AnimatedDog.fbx/Animations
+      - Prefabs/AnimatedDog.fbx/Animations/0_play_dead_0
+      - Prefabs/AnimatedDog.fbx/Animations/0_rollover_0
+      - Prefabs/AnimatedDog.fbx/Animations/0_shake_0
+      - Prefabs/AnimatedDog.fbx/Animations/0_sitting_0
+      - Prefabs/AnimatedDog.fbx/Animations/0_standing_0
+      - Prefabs/AnimatedDog.fbx/Materials
+      - Prefabs/AnimatedDog.fbx/Materials/Material_0
+      - Prefabs/AnimatedDog.fbx/Meshes
+      - Prefabs/AnimatedDog.fbx/Meshes/shiba_inu.2
       - Prefabs/Button.prefab
+      - Prefabs/ImageMaterial_fog.lspkg
+      - Prefabs/ImageMaterial_fog.lspkg/ImageMaterial.mat
+      - Prefabs/ImageMaterial_fog.lspkg/dog_texture.png
+      - Prefabs/ImageMaterial_fog.lspkg/image_unlit.ss_graph
+      - Prefabs/ImageMaterial_fog.lspkg/package.native
       - Prefabs/Rect_Button.prefab
+      - Prefabs/WechatIMG102.jpg
+      - Prefabs/chair
       - Prefabs/chair/source/Chair.fbx
       - Prefabs/chair/textures
       - Prefabs/couch-prop
@@ -34,6 +56,76 @@ CollapsedEntities:
       - Prefabs/couch-prop/textures/Couch_Pillow_Normal.png
       - Prefabs/couch-prop/textures/Couch_Pillow_Roughness.png
       - Prefabs/couch-prop/textures/internal_ground_ao_texture.jpeg
+      - Prefabs/dog_play_dead.fbx
+      - Prefabs/dog_play_dead.fbx/.hidden
+      - Prefabs/dog_play_dead.fbx/.hidden/Material
+      - Prefabs/dog_play_dead.fbx/.hidden/white
+      - Prefabs/dog_play_dead.fbx/Animations
+      - Prefabs/dog_play_dead.fbx/Animations/Scene
+      - Prefabs/dog_play_dead.fbx/Materials
+      - Prefabs/dog_play_dead.fbx/Materials/Material
+      - Prefabs/dog_play_dead.fbx/Materials/Material_0
+      - Prefabs/dog_play_dead.fbx/Meshes
+      - Prefabs/dog_play_dead.fbx/Meshes/Cube
+      - Prefabs/dog_play_dead.fbx/Meshes/shiba_inu.2
+      - Prefabs/dog_play_dead.fbx/dog_play_dead
+      - Prefabs/dog_rollover.fbx
+      - Prefabs/dog_rollover.fbx/.hidden
+      - Prefabs/dog_rollover.fbx/.hidden/Material
+      - Prefabs/dog_rollover.fbx/.hidden/white
+      - Prefabs/dog_rollover.fbx/Animations
+      - Prefabs/dog_rollover.fbx/Animations/Scene
+      - Prefabs/dog_rollover.fbx/Materials
+      - Prefabs/dog_rollover.fbx/Materials/Material
+      - Prefabs/dog_rollover.fbx/Materials/Material_0
+      - Prefabs/dog_rollover.fbx/Meshes
+      - Prefabs/dog_rollover.fbx/Meshes/Cube
+      - Prefabs/dog_rollover.fbx/Meshes/shiba_inu.2
+      - Prefabs/dog_rollover.fbx/dog_rollover
+      - Prefabs/dog_shake.fbx
+      - Prefabs/dog_shake.fbx/.hidden
+      - Prefabs/dog_shake.fbx/.hidden/Material
+      - Prefabs/dog_shake.fbx/.hidden/white
+      - Prefabs/dog_shake.fbx/Animations
+      - Prefabs/dog_shake.fbx/Animations/Scene
+      - Prefabs/dog_shake.fbx/Materials
+      - Prefabs/dog_shake.fbx/Materials/Material
+      - Prefabs/dog_shake.fbx/Materials/Material_0
+      - Prefabs/dog_shake.fbx/Meshes
+      - Prefabs/dog_shake.fbx/Meshes/Cube
+      - Prefabs/dog_shake.fbx/Meshes/shiba_inu.2
+      - Prefabs/dog_shake.fbx/dog_shake
+      - Prefabs/dog_sit.fbx
+      - Prefabs/dog_sit.fbx/.hidden
+      - Prefabs/dog_sit.fbx/.hidden/Material
+      - Prefabs/dog_sit.fbx/.hidden/white
+      - Prefabs/dog_sit.fbx/Animations
+      - Prefabs/dog_sit.fbx/Animations/Scene
+      - Prefabs/dog_sit.fbx/Materials
+      - Prefabs/dog_sit.fbx/Materials/Material
+      - Prefabs/dog_sit.fbx/Materials/Material_0
+      - Prefabs/dog_sit.fbx/Meshes
+      - Prefabs/dog_sit.fbx/Meshes/Cube
+      - Prefabs/dog_sit.fbx/Meshes/shiba_inu.2
+      - Prefabs/dog_sit.fbx/dog_sit
+      - Prefabs/panda
+      - Prefabs/panda/panda.fbx
+      - Prefabs/panda/panda.fbx/.hidden
+      - Prefabs/panda/panda.fbx/.hidden/textura
+      - Prefabs/panda/panda.fbx/.hidden/white
+      - Prefabs/panda/panda.fbx/Animations
+      - Prefabs/panda/panda.fbx/Animations/BaseLayer
+      - Prefabs/panda/panda.fbx/Hair Assets
+      - Prefabs/panda/panda.fbx/Hair Assets/panda
+      - Prefabs/panda/panda.fbx/Materials
+      - Prefabs/panda/panda.fbx/Materials/textura
+      - Prefabs/panda/panda.fbx/Meshes
+      - Prefabs/panda/panda.fbx/Meshes/pCube4
+      - Prefabs/panda/panda.fbx/Meshes/pSphere1
+      - Prefabs/panda/panda.fbx/Meshes/pSphere1_2
+      - Prefabs/panda/panda.fbx/Textures
+      - Prefabs/panda/panda.fbx/Textures/Panda
+      - Prefabs/panda/panda.fbx/panda
       - Prefabs/therapist_sitting.fbx
       - Prefabs/therapist_sitting.fbx/.hidden
       - Prefabs/therapist_sitting.fbx/.hidden/white
@@ -71,7 +163,9 @@ CollapsedEntities:
       - Scene 2.scene
       - Scene.scene
       - Scripts/Audio Output.audioOutput
+      - Scripts/Dog/PetInteraction.js
       - Scripts/PageController.js
+      - Scripts/Speech
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js
       - Scripts/bubbleTouchHandler.js

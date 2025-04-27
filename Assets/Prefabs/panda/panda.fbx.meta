@@ -1,0 +1,1785 @@
+- !<AssetImportMetadata/4105e145-35fa-4b67-9903-a30019cccec8>
+  ImportedAssetIds:
+    .hidden/textura: !<reference> a3b6b5e2-10f3-440b-b99e-b1b73ac3d518
+    .hidden/white: !<reference> 8f7e4d77-370a-4be8-a010-763ef7dbad13
+    0233ce94bbe7a634: !<reference> 769d7b3b-1191-4333-a356-7daffb799da1
+    03cafd5f2e766ac6: !<reference> 431134dd-b52c-42c0-81fc-1ca67b6dd575
+    05d68f36efe14f31: !<reference> 5421d2fc-876f-4f2a-9b64-b183956c708f
+    0959b0805be7c1d0: !<reference> 0ffc193d-52ef-4ee6-bf28-4e3020ccad3e
+    0a7356cc7b1a8af9: !<reference> 7df40d16-0b86-4121-9364-6b10a7171fe8
+    0bdf850e295226e2: !<reference> 8e9df2de-28ce-4f98-b907-854654bf26ab
+    0cdfab82ad06b58d: !<reference> 8f72a61f-5a1e-478c-9417-90a9e5b92a2c
+    0e5b5bfb7fd05199: !<reference> 6e3330f3-6d7f-4f68-bf91-076e6bfbf5e0
+    1227036bed265a35: !<reference> 0aa962f3-bb87-48fa-8520-cbc3dd422827
+    19077f73c65b00ed: !<reference> d557865c-96a9-4c80-a471-a1633d1b6e2d
+    194b81910b6571a4: !<reference> 456f0248-b12d-4fee-b7ff-47287e41f760
+    199ee7ec52c5b98c: !<reference> 21872d6c-9ba0-493c-ac39-dc873ab9f899
+    25e2b78df0108dfb: !<reference> 4cba5e6e-a536-4d53-bccc-ddefd7fceca9
+    26644ab765856c59: !<reference> c5b081ea-5e64-4daf-8b90-9422756a34f0
+    292b34ad98f49855: !<reference> 7b91dcf7-4fb5-4b86-925e-4bd228078745
+    2a6c2130cbbebc70: !<reference> 73c4c317-bd14-485e-895d-6422b9292d3e
+    2db76638ce283844: !<reference> 28f82bc5-6fd8-461c-ab9d-c2c305f1c654
+    314bf65bfb4d3b0c: !<reference> 41f5cd07-f6e2-4b8a-96f0-0974d16e6b71
+    3dd51a7638b4bda6: !<reference> 872e249a-1281-46f5-93a0-5ab75852b999
+    45ae7a59562016b3: !<reference> 67b42d75-7894-4893-8f99-8cbd5bac60a5
+    45b9a5246bc7ad12: !<reference> 4df058d9-6584-426d-bbcf-708338cd94dc
+    46ffae99b3f85ee8: !<reference> 328ca297-65db-47c6-9568-17e435d745e4
+    4bfec806ceb5b1c5: !<reference> 5b42b25a-224e-4013-a6a4-6fdfdddae1eb
+    5597ea2dce05ee26: !<reference> cd8d11e5-90b0-4549-bfdf-4cf9aeab053a
+    5bac7957be84c82e: !<reference> 6be035de-26cf-45ef-8268-a8475b01a5bf
+    5ce61a4e50791167: !<reference> 2d347dca-774f-4478-b4e9-48eedc57b502
+    5df648bf7a95c91b: !<reference> 23ba6174-727e-4412-a5e9-71d24aa0d934
+    5e1d8cefe46cafe1: !<reference> dfca3ed5-69d7-418f-9cc6-2f12bc35ee11
+    6243efa24385efc3: !<reference> 3b4db54a-0477-49c8-a045-e0cbdb106732
+    64b8865e2849ae67: !<reference> e7d66ba3-bc85-4e45-86c8-3a044833ad24
+    659b2cc78fd4d1f4: !<reference> 20183b9a-5408-4811-b0c6-886af9e824b8
+    66780cf3a4dcb2b8: !<reference> 18d7471f-a90d-44f9-b613-4d3a36f9d9aa
+    6f78b0301cb686a6: !<reference> e94d337b-b877-4d29-9535-e3311a51c18d
+    6fc930b2c20cb8df: !<reference> 235736c4-8e6f-4b5b-9cd8-f57fb441c65c
+    74de1b662004c355: !<reference> 69661258-1213-4c9e-ac4f-274549bd0687
+    759316ba5ee81b35: !<reference> 70dd5c30-d2a1-4aec-82d0-5edc95d21ef6
+    7dacf08b3a2250d1: !<reference> e8a8cb3d-aaf5-43c4-851a-6003ffb32491
+    7deb15fd37125254: !<reference> 69415432-7674-41b2-ae42-c7dfd9bb1a21
+    7eaa70fdd1154d4e: !<reference> 258a9703-144d-420e-aa0d-9f5a4823f717
+    81c3ca1483463991: !<reference> 4aeb122f-e9fd-4a03-83b2-16388fbe03bc
+    8596810beab895d4: !<reference> b88bccc7-15ab-4bf2-b291-0b7ebb410597
+    8740e67befe79cb2: !<reference> 30c29cf5-cc80-4298-9efb-dde1ed74a7f4
+    89871b5ec9928a2d: !<reference> 21f852c4-2168-4580-aa2b-fdb911ff89b9
+    8a56e4b1193f2515: !<reference> 4af0ce45-ffaf-41c3-84b3-da4a32df5cd2
+    8a606a832276eb59: !<reference> 9b9153d4-abd1-4aa2-8254-3bcc065038ef
+    8a6c6af5e3cd5692: !<reference> 9c364837-0199-4805-a61a-83a8cebe51fe
+    8bb69e4876ff8c88: !<reference> 4be1eb1d-43d2-4a15-b7b7-4c6bfa53e6da
+    91ac02d3c9534a18: !<reference> 377f40c2-d072-4b53-a23f-22189b3493b7
+    939d3a08ec39eab7: !<reference> ca954774-1d71-436a-8f86-6710fa775392
+    97921da09e6cb880: !<reference> 10f7ac9e-b9c6-4b6d-a9b8-da21cd4c0960
+    9852475203aabc45: !<reference> d2712322-6897-4603-833f-7a4d556123a3
+    988850d317629e65: !<reference> a8617bb6-6ffd-4bce-9cd5-3ecc4f5c8132
+    9d68780b6ba5dbeb: !<reference> 42048022-f719-4288-80f0-22ccc3fc36b2
+    Animations/BaseLayer: !<reference> a520796d-b00e-4528-9990-fabc340b5a5f
+    Hair Assets/panda: !<reference> 026bf721-c662-456b-9ff2-9799282e9c17
+    Materials/textura: !<reference> 0540fec9-0a47-4bf3-9039-322dbd7203f5
+    Materials/textura|textura|GraphPassInfo: !<reference> 87629b4d-869b-4164-b2aa-c58b0046d114
+    Meshes/pCube4: !<reference> 8a30a7f7-0179-4ebf-82ee-adc9bf9c53a2
+    Meshes/pSphere1: !<reference> d531438e-2451-4aa3-b562-ad9221a68f8c
+    Meshes/pSphere1_2: !<reference> 67a6c526-2d67-4247-9b92-9b36bb9f6d7d
+    Scene: !<reference> a6770500-d199-4bba-87a2-f7d438e63255
+    Textures/Panda: !<reference> 1e82bda0-1332-4c81-917a-e322623dbc20
+    a12f90d79ea305ea: !<reference> 7640519c-8152-4aa7-b965-d39932650ce9
+    a3699f263c9010f7: !<reference> 632469ef-a9e3-495e-bac9-8b23434a22a8
+    a997ea3b7e734b49: !<reference> 19f2eedb-6c79-4a0c-af64-cb6c9e3346de
+    abd6b720fbf58bfd: !<reference> fc398d10-f922-4267-b88e-3feb4abfb877
+    ac1362097578f763: !<reference> 257dcf50-64a5-4075-84ef-cba761e0be86
+    adc3d58596750ee6: !<reference> 8a8815b3-16de-493f-92dc-1870f68f6bb7
+    b0ffe0851469ff1d: !<reference> 19110f39-a71a-4006-b5b0-6afd2c542200
+    b43f4bf490738ca8: !<reference> 96f14dc9-430d-4e6f-ad79-c92f21327033
+    b649a35934745f2f: !<reference> 8212ca02-de75-47ea-bf08-a1abfa1a1194
+    b6b5829e81f353b7: !<reference> de16e824-9d4d-4ec6-adec-267998f7106c
+    b8901e70984a1b23: !<reference> e2621f3c-7ec4-4a86-b34e-fd0e54c32e26
+    b9e42f5d6f585e1b: !<reference> 3161a7f0-d464-4fb2-966a-6242b211375f
+    baa48777692ceef6: !<reference> 1d4d637f-5c0c-4f99-8590-69f3ae8c92e4
+    bc6c8d68e885b643: !<reference> d45b7217-6315-499d-b279-160b942f3105
+    bedf7dc04f4741bb: !<reference> 3cc9614b-cf34-4494-9c2c-e2be313e8e33
+    c1e510e19b1f7865: !<reference> 99d02bdc-a190-4a13-aa9d-c41966c56968
+    c2530d184f880d1e: !<reference> 62f0a000-2ee7-4775-89ac-da254034ba28
+    c6fd1a9baa8c397d: !<reference> acc378d3-02dc-4505-aad7-c09cee4818d9
+    c7d67ac6801f9a4f: !<reference> fe6a6c60-e393-4a27-a6b3-db718b79c944
+    c8d7ed562966e0ca: !<reference> 49365d6e-e94b-42f1-96d6-bace6e116cf3
+    cc4bd9134d60f0e9: !<reference> 71c184e6-ca06-405a-9d16-221b1b0dbb39
+    cd166c1bc96e663d: !<reference> d1d7b6a8-2905-4432-96c0-164c4071999a
+    d1d2484a87820a62: !<reference> 86f7eee6-773a-4b63-a7d6-f987acea5c85
+    d1e1af13f3309819: !<reference> a57c5b77-4480-4306-90e9-ff021934b02b
+    d56449042852e538: !<reference> e8e8c773-07c9-44e3-a2f1-d45608217e1b
+    d6d248de4693afb2: !<reference> fe0e6c0d-2b61-469b-a4dd-a5467d57d169
+    d8661a454aaf709d: !<reference> 507284c5-4c2f-48c5-ab3d-b6232ed186e3
+    d8a9c595413243c9: !<reference> f020f9c9-6934-4524-b8f0-d95558851dd3
+    da3b6228f03a085b: !<reference> 5e702814-7de1-45ee-a9b8-9a5885b1b8a2
+    e66f25ad2366abfa: !<reference> ba150ea8-7cc7-4fd7-a574-56ff2ae5cd85
+    e876e753a60f4a70: !<reference> 4b3bac37-7f8d-49f8-b2e3-5985efc487b8
+    e91ef4228eb17f4a: !<reference> c5ffc48c-cb83-40ed-94bd-f21e7718ca0f
+    ec4f9373e1e3dea7: !<reference> 21799e3b-1b28-4966-8a26-6d7843dfac05
+    ec6ac08786d91785: !<reference> 6192abe3-3e47-48df-97f6-9fc173ad4131
+    ed90ec340b3abf34: !<reference> cd1c13ce-b49f-467b-8af3-7864db113188
+    f158836bcb936ad4: !<reference> 9711458d-f336-4990-846c-d11184624e92
+    f23fefc23936e2a4: !<reference> f490b289-0224-4e5f-a552-14445cf24209
+    f35e9f4cbc4d024c: !<reference> f5b8b340-13a2-494a-98b9-8d4bf61eb8de
+    f76de002f67feb14: !<reference> e598f46f-e14f-4d1f-86a6-6646763bbff1
+    fc95272e135f80b3: !<reference> 1496eec5-b233-4a5a-b4b6-96566530718d
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> a6770500-d199-4bba-87a2-f7d438e63255
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> d0725b3b-1789-4b6b-96d3-fe5d21582e4a
+  DependentFiles:
+    - Panda.jpg
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/002faba0-b7bb-4cda-9a77-34e40d68016a>
+  PrefabRemaps:
+    []
+  Name: joint74
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.625483, y: -0.026470, z: 0.178290}
+    rotation: {x: -180.000000, y: -0.000000, z: -74.093918}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 096652ce-551d-4106-9d01-291efecb29a2
+  Components:
+    []
+- !<SceneObject/01452133-08c8-40b2-a109-d4a8be152088>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/01ae254e-c297-428e-a578-c5b8a0c54aa2>
+  PrefabRemaps:
+    []
+  Name: joint56
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.071641, y: -0.689385, z: 1.005864}
+    rotation: {x: -89.999413, y: -90.000000, z: 90.003578}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9e65d6d1-07ca-4cd1-9ee1-a91b345b74b5
+  Components:
+    []
+- !<SceneObject/096652ce-551d-4106-9d01-291efecb29a2>
+  PrefabRemaps:
+    []
+  Name: joint75
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.678509, y: -0.000000, z: 0.552250}
+    rotation: {x: -180.000000, y: -0.000000, z: -34.421856}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> aad7ce45-646b-4d7a-8072-80b138094a39
+  Components:
+    []
+- !<SceneObject/0d15913f-9f76-46ca-bf29-aaff34bdc408>
+  PrefabRemaps:
+    []
+  Name: joint77
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.127323, y: -0.000000, z: 0.000000}
+    rotation: {x: -8.403372, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/0f922b22-4cd5-4033-b42f-9ff7e742b943>
+  PrefabRemaps:
+    []
+  Name: joint86
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.041350, y: 1.816012, z: 0.018799}
+    rotation: {x: 93.148758, y: -14.989504, z: -85.212456}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c59f9fbb-dbfa-465f-9252-afb0da3c3d46
+  Components:
+    []
+- !<SceneObject/104f280f-edb2-4f82-9041-db0f356e09c1>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/12ad0130-ea84-40f7-9a61-be52afa1afa8>
+  PrefabRemaps:
+    []
+  Name: joint53
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.701177, y: 0.733570, z: -0.071641}
+    rotation: {x: -5.990595, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 01ae254e-c297-428e-a578-c5b8a0c54aa2
+    - !<own> e49ab024-78ff-458a-b9a1-f2be6655fd6d
+    - !<own> 35ce89d2-3265-468a-80e8-989ec1ea3862
+  Components:
+    []
+- !<SceneObject/19e74f70-ae75-417d-948e-7169fecaaf23>
+  PrefabRemaps:
+    []
+  Name: joint84
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.259794, y: -0.000000, z: 0.000000}
+    rotation: {x: -5.222003, y: 90.000000, z: 0.413708}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/1ae95493-3fb1-478f-ad87-14736c47b879>
+  PrefabRemaps:
+    []
+  Name: joint95
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.002823, y: -1.790676, z: 2.064683}
+    rotation: {x: -27.591194, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/1cd54622-e86e-4a27-b187-bf99f1dd315b>
+  PrefabRemaps:
+    []
+  Name: joint69
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.259791, y: -0.000000, z: 0.000000}
+    rotation: {x: -5.194429, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/1e02fdfc-4020-4dd4-93b0-45f3f1ac02df>
+  PrefabRemaps:
+    []
+  Name: ikHandle1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.528691, y: 1.749767, z: -3.557664}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/25286f35-597a-4b1a-9736-d8e488c4f26b>
+  PrefabRemaps:
+    []
+  Name: joint51
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.683589, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -5.692838}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bded20b6-c5c8-44ab-8b90-ae8363f90e86
+  Components:
+    []
+- !<SceneObject/26215927-878d-4415-b10d-9a96ddb4f65d>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle18
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/2842086c-a8df-4e6a-a8ce-32d9b53eb264>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle21
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7247363a-ae28-4204-8af4-dcebaf280ef2
+    - !<own> 4f80260f-3322-42a3-9428-3b6df745f3cb
+    - !<own> 3ea38ea3-7c0c-4f00-a2f1-384923263391
+  Components:
+    []
+- !<SceneObject/29f993b0-7b98-4bfe-a1a6-f6b78a1066ca>
+  PrefabRemaps:
+    []
+  Name: joint48
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.616000, y: 0.461799, z: 2.142139}
+    rotation: {x: -80.610260, y: -50.396461, z: 79.606468}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 49e28a0d-321d-4abb-8036-b4bfef80bf54
+    - !<own> bdb3d8b3-6348-4810-80f1-f0f930dc9f0e
+  Components:
+    []
+- !<SceneObject/2be6163c-f6ae-468f-888c-fe878750407f>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle14
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/30dfa9dd-7b07-478a-926e-05b080f3ba5d>
+  PrefabRemaps:
+    []
+  Name: pSphere1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.618563, y: -5.348978, z: -6.850901}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 87d08905-62b6-497f-a242-fb6f66216b04
+- !<SceneObject/311dddba-5b93-47cd-9891-2278df8fde30>
+  PrefabRemaps:
+    []
+  Name: joint54
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.675839, y: -0.946074, z: 0.000000}
+    rotation: {x: 180.000000, y: -0.000000, z: -140.270020}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b9d5f933-6fc8-497d-82a8-78c06a12fa4c
+  Components:
+    []
+- !<SceneObject/31b3b5f7-16df-4b56-aa8e-b5f6e1c579ee>
+  PrefabRemaps:
+    []
+  Name: joint50
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.311201, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.000000, y: 0.000000, z: -13.878531}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 25286f35-597a-4b1a-9736-d8e488c4f26b
+  Components:
+    []
+- !<SceneObject/351e6902-9c4f-4b98-b8b4-a5140e30b2fa>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle17
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/35ce89d2-3265-468a-80e8-989ec1ea3862>
+  PrefabRemaps:
+    []
+  Name: joint79
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.041141, y: -1.665039, z: -0.614829}
+    rotation: {x: -90.000000, y: 68.395554, z: 90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3b90145d-0c1d-45de-9bdb-5c10ba5a24bc
+  Components:
+    []
+- !<SceneObject/37e89770-f9cb-406e-9814-f70eea8e178a>
+  PrefabRemaps:
+    []
+  Name: joint89
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.429443, y: -0.040052, z: 0.000000}
+    rotation: {x: -8.378672, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/3a01dc95-2818-494c-9644-de29f792bffc>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle38
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/3b90145d-0c1d-45de-9bdb-5c10ba5a24bc>
+  PrefabRemaps:
+    []
+  Name: joint80
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.327159, y: -0.000004, z: 0.588620}
+    rotation: {x: -174.198669, y: 3.395778, z: -80.385239}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d3132447-c3e6-4d60-aa58-8a3fb856acc9
+  Components:
+    []
+- !<SceneObject/3ea38ea3-7c0c-4f00-a2f1-384923263391>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle8
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 104f280f-edb2-4f82-9041-db0f356e09c1
+    - !<own> 351e6902-9c4f-4b98-b8b4-a5140e30b2fa
+  Components:
+    []
+- !<SceneObject/44002cb0-cc6e-4c0f-af4b-1440317e4a52>
+  PrefabRemaps:
+    []
+  Name: ikHandle3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.969500, y: 1.623040, z: 2.538000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4728d272-2d5c-49b0-bc14-dc255c8d56de>
+  PrefabRemaps:
+    []
+  Name: joint70
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.228812, y: -0.200786, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/49e28a0d-321d-4abb-8036-b4bfef80bf54>
+  PrefabRemaps:
+    []
+  Name: joint47_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.265297, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.149207, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4efdd8a1-0ba9-40a3-909c-7270b1459812>
+  PrefabRemaps:
+    []
+  Name: joint83
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.255132, y: -0.000001, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 73.155273}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 19e74f70-ae75-417d-948e-7169fecaaf23
+    - !<own> 658eb83e-c10e-4dd9-9951-9e3d60408e2b
+  Components:
+    []
+- !<SceneObject/4f0e1b75-7471-4aeb-8b07-09ed543ce3f8>
+  PrefabRemaps:
+    []
+  Name: joint88
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.909981, z: 2.959435}
+    rotation: {x: -90.000000, y: -70.787483, z: 90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 37e89770-f9cb-406e-9814-f70eea8e178a
+  Components:
+    []
+- !<SceneObject/4f80260f-3322-42a3-9428-3b6df745f3cb>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle22
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6d6ee2f8-c425-4beb-9e5a-c4607a839852
+    - !<own> daad3050-cf33-4f71-a6c3-ca5f6d3556a2
+  Components:
+    []
+- !<SceneObject/50983141-742d-4e51-9b05-1aed3a6244be>
+  PrefabRemaps:
+    []
+  Name: joint94
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.106587, y: 0.557810, z: 2.930981}
+    rotation: {x: -27.591194, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/510efa3d-ff3d-4b41-a6d6-13bdedf5ea1f>
+  PrefabRemaps:
+    []
+  Name: joint93
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.817539, y: 1.184284, z: 1.780599}
+    rotation: {x: -27.591194, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/56d91e1b-337d-4d3c-99a9-b73115a55a55>
+  PrefabRemaps:
+    []
+  Name: panda
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d56e295e-6208-4785-9807-15be4dc1a8d6
+    - !<own> 1e02fdfc-4020-4dd4-93b0-45f3f1ac02df
+    - !<own> 6d27db7f-9c47-4795-a958-e4dd89b672b1
+    - !<own> 44002cb0-cc6e-4c0f-af4b-1440317e4a52
+    - !<own> 63e70cad-4eb9-458e-92ce-94e89bb0ef30
+    - !<own> 6133329d-625a-48fc-9db6-ae989454e544
+    - !<own> e85d4adf-935b-4491-824f-e028ee656890
+    - !<own> cdd61158-ba1c-48c1-92d4-c5f714d4922a
+    - !<own> 7ef429f0-fafa-448f-8379-de5b4b01e25b
+    - !<own> f55c4e76-b6af-4810-8c0e-6a1b976a37f8
+    - !<own> a4c32f09-7862-4d7f-971e-f99b315b3bae
+    - !<own> ed48bdf3-9120-49cb-865f-4112d6cdcbd2
+    - !<own> 3a01dc95-2818-494c-9644-de29f792bffc
+  Components:
+    - !<own> 618b7d1f-b275-48f0-a62a-12b67120f2a7
+    - !<own> f7a01687-2909-4268-a7ed-8a65ccf110c8
+- !<SceneObject/58eaa0af-ed50-4362-94c3-dd884051db19>
+  PrefabRemaps:
+    []
+  Name: joint61
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.322908, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 76.650665}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f276b4fa-2036-4782-a9b7-282f8302cd5e
+    - !<own> de6f7faf-aea0-4b34-b7df-c590624de987
+  Components:
+    []
+- !<SceneObject/5c8a0c12-3fdd-46be-adc6-66f67a2f732a>
+  PrefabRemaps:
+    []
+  Name: joint66
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.129236, y: -0.000000, z: -0.588612}
+    rotation: {x: 180.000000, y: 0.000000, z: -64.822243}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 76fafc2d-dc96-4c02-9853-a59daa9e2c2c
+  Components:
+    []
+- !<SceneObject/5e0ba493-d530-48df-a850-5b3a4a219c67>
+  PrefabRemaps:
+    []
+  Name: joint58
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.034875, y: -1.440790, z: -1.902654}
+    rotation: {x: 3.011660, y: -2.297135, z: -65.468033}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c4e4296f-d635-41a4-9b8e-19af71c26bc9
+  Components:
+    []
+- !<SceneObject/6133329d-625a-48fc-9db6-ae989454e544>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle31
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2842086c-a8df-4e6a-a8ce-32d9b53eb264
+  Components:
+    []
+- !<Skin/618b7d1f-b275-48f0-a62a-12b67120f2a7>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    Panda: !<reference> ed48bdf3-9120-49cb-865f-4112d6cdcbd2
+    ikHandle1: !<reference> 1e02fdfc-4020-4dd4-93b0-45f3f1ac02df
+    ikHandle2: !<reference> 6d27db7f-9c47-4795-a958-e4dd89b672b1
+    ikHandle3: !<reference> 44002cb0-cc6e-4c0f-af4b-1440317e4a52
+    ikHandle4: !<reference> 63e70cad-4eb9-458e-92ce-94e89bb0ef30
+    joint46: !<reference> 957b1d33-eeec-4b68-b617-ee11b99c49b4
+    joint47: !<reference> 6c33b2ac-7b84-49b4-a137-adac7c9af11f
+    joint47_2: !<reference> 49e28a0d-321d-4abb-8036-b4bfef80bf54
+    joint48: !<reference> 29f993b0-7b98-4bfe-a1a6-f6b78a1066ca
+    joint49: !<reference> b44a977e-b98a-423f-9b08-f68979dc669a
+    joint50: !<reference> 31b3b5f7-16df-4b56-aa8e-b5f6e1c579ee
+    joint51: !<reference> 25286f35-597a-4b1a-9736-d8e488c4f26b
+    joint52: !<reference> bded20b6-c5c8-44ab-8b90-ae8363f90e86
+    joint53: !<reference> 12ad0130-ea84-40f7-9a61-be52afa1afa8
+    joint54: !<reference> 311dddba-5b93-47cd-9891-2278df8fde30
+    joint55: !<reference> b9d5f933-6fc8-497d-82a8-78c06a12fa4c
+    joint56: !<reference> 01ae254e-c297-428e-a578-c5b8a0c54aa2
+    joint57: !<reference> 9e65d6d1-07ca-4cd1-9ee1-a91b345b74b5
+    joint58: !<reference> 5e0ba493-d530-48df-a850-5b3a4a219c67
+    joint59: !<reference> c4e4296f-d635-41a4-9b8e-19af71c26bc9
+    joint60: !<reference> 6a4510ff-1bf6-4ec9-b70e-63aa66b47fe0
+    joint61: !<reference> 58eaa0af-ed50-4362-94c3-dd884051db19
+    joint62: !<reference> f276b4fa-2036-4782-a9b7-282f8302cd5e
+    joint63: !<reference> de6f7faf-aea0-4b34-b7df-c590624de987
+    joint64: !<reference> e49ab024-78ff-458a-b9a1-f2be6655fd6d
+    joint65: !<reference> ef2928ba-0101-4ef9-afa3-5c0582868be8
+    joint66: !<reference> 5c8a0c12-3fdd-46be-adc6-66f67a2f732a
+    joint67: !<reference> 76fafc2d-dc96-4c02-9853-a59daa9e2c2c
+    joint68: !<reference> fe9f3892-631d-4796-9131-b50b406cc433
+    joint69: !<reference> 1cd54622-e86e-4a27-b187-bf99f1dd315b
+    joint70: !<reference> 4728d272-2d5c-49b0-bc14-dc255c8d56de
+    joint71: !<reference> 701c0495-1caa-4a6a-8010-0a705136219a
+    joint72: !<reference> eff518ec-f481-416e-a28f-ae98debabd2b
+    joint73: !<reference> 659f43da-a5b5-45c1-9aa6-aea850d22b46
+    joint74: !<reference> 002faba0-b7bb-4cda-9a77-34e40d68016a
+    joint75: !<reference> 096652ce-551d-4106-9d01-291efecb29a2
+    joint76: !<reference> aad7ce45-646b-4d7a-8072-80b138094a39
+    joint77: !<reference> 0d15913f-9f76-46ca-bf29-aaff34bdc408
+    joint78: !<reference> 7dcf7aab-d835-4a92-824b-263d783c0ee8
+    joint79: !<reference> 35ce89d2-3265-468a-80e8-989ec1ea3862
+    joint80: !<reference> 3b90145d-0c1d-45de-9bdb-5c10ba5a24bc
+    joint81: !<reference> d3132447-c3e6-4d60-aa58-8a3fb856acc9
+    joint82: !<reference> 76e87833-093e-414c-9419-a102ad3c3f41
+    joint83: !<reference> 4efdd8a1-0ba9-40a3-909c-7270b1459812
+    joint84: !<reference> 19e74f70-ae75-417d-948e-7169fecaaf23
+    joint85: !<reference> 658eb83e-c10e-4dd9-9951-9e3d60408e2b
+    joint86: !<reference> 0f922b22-4cd5-4033-b42f-9ff7e742b943
+    joint87: !<reference> c59f9fbb-dbfa-465f-9252-afb0da3c3d46
+    joint88: !<reference> 4f0e1b75-7471-4aeb-8b07-09ed543ce3f8
+    joint89: !<reference> 37e89770-f9cb-406e-9814-f70eea8e178a
+    joint90: !<reference> b08c99f2-73a7-45a2-9d81-f64f0ac5d011
+    joint91: !<reference> 964fc7e1-80a1-43dd-8076-74f83c8bda0f
+    joint92: !<reference> a26a66cf-fbe1-42de-8295-fd5887e5eefa
+    joint93: !<reference> 510efa3d-ff3d-4b41-a6d6-13bdedf5ea1f
+    joint94: !<reference> 50983141-742d-4e51-9b05-1aed3a6244be
+    joint95: !<reference> 1ae95493-3fb1-478f-ad87-14736c47b879
+    joint96: !<reference> d6020907-a95c-4a5d-93f8-23850d3b6c68
+    joint97: !<reference> a61c2900-18af-42b0-81dc-e242aea4a610
+    joint98: !<reference> ada9dd78-1818-43c5-a650-76ad7df3fc00
+    nurbsCircle10: !<reference> bfcdee9e-d023-45cc-a3ab-26fa38734bf2
+    nurbsCircle14: !<reference> 2be6163c-f6ae-468f-888c-fe878750407f
+    nurbsCircle15: !<reference> e1cd33a1-1d48-44f5-8467-9cb1486758c7
+    nurbsCircle16: !<reference> daad3050-cf33-4f71-a6c3-ca5f6d3556a2
+    nurbsCircle17: !<reference> 351e6902-9c4f-4b98-b8b4-a5140e30b2fa
+    nurbsCircle18: !<reference> 26215927-878d-4415-b10d-9a96ddb4f65d
+    nurbsCircle19: !<reference> 7247363a-ae28-4204-8af4-dcebaf280ef2
+    nurbsCircle2: !<reference> b52c9e76-e644-419e-9f81-17dbbcf34ca5
+    nurbsCircle21: !<reference> 2842086c-a8df-4e6a-a8ce-32d9b53eb264
+    nurbsCircle22: !<reference> 4f80260f-3322-42a3-9428-3b6df745f3cb
+    nurbsCircle3: !<reference> 01452133-08c8-40b2-a109-d4a8be152088
+    nurbsCircle30: !<reference> f64169c5-fd25-432a-a60b-b1565fed79ee
+    nurbsCircle31: !<reference> 6133329d-625a-48fc-9db6-ae989454e544
+    nurbsCircle33: !<reference> e85d4adf-935b-4491-824f-e028ee656890
+    nurbsCircle34: !<reference> cdd61158-ba1c-48c1-92d4-c5f714d4922a
+    nurbsCircle35: !<reference> 7ef429f0-fafa-448f-8379-de5b4b01e25b
+    nurbsCircle36: !<reference> f55c4e76-b6af-4810-8c0e-6a1b976a37f8
+    nurbsCircle37: !<reference> a4c32f09-7862-4d7f-971e-f99b315b3bae
+    nurbsCircle38: !<reference> 3a01dc95-2818-494c-9644-de29f792bffc
+    nurbsCircle4: !<reference> 104f280f-edb2-4f82-9041-db0f356e09c1
+    nurbsCircle5: !<reference> 6d6ee2f8-c425-4beb-9e5a-c4607a839852
+    nurbsCircle8: !<reference> 3ea38ea3-7c0c-4f00-a2f1-384923263391
+    nurbsCircle9: !<reference> dda81f0b-620a-4466-91db-f8a9719880e3
+    pCube4: !<reference> d56e295e-6208-4785-9807-15be4dc1a8d6
+    pSphere1: !<reference> 30dfa9dd-7b07-478a-926e-05b080f3ba5d
+    pSphere1_2: !<reference> 7e779233-44f2-4f7e-869d-6520b2685acf
+    panda: !<reference> 56d91e1b-337d-4d3c-99a9-b73115a55a55
+- !<SceneObject/63e70cad-4eb9-458e-92ce-94e89bb0ef30>
+  PrefabRemaps:
+    []
+  Name: ikHandle4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.112786, y: 1.623038, z: 2.538002}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/658eb83e-c10e-4dd9-9951-9e3d60408e2b>
+  PrefabRemaps:
+    []
+  Name: joint85
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.228808, y: 0.200786, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/659f43da-a5b5-45c1-9aa6-aea850d22b46>
+  PrefabRemaps:
+    []
+  Name: joint73
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.034878, y: -1.440794, z: 1.902650}
+    rotation: {x: 3.011686, y: -2.297149, z: 114.531967}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 002faba0-b7bb-4cda-9a77-34e40d68016a
+  Components:
+    []
+- !<SceneObject/6a4510ff-1bf6-4ec9-b70e-63aa66b47fe0>
+  PrefabRemaps:
+    []
+  Name: joint60
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.678513, y: 0.000000, z: -0.552248}
+    rotation: {x: 180.000000, y: 0.000000, z: -34.421856}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 58eaa0af-ed50-4362-94c3-dd884051db19
+  Components:
+    []
+- !<SceneObject/6c33b2ac-7b84-49b4-a137-adac7c9af11f>
+  PrefabRemaps:
+    []
+  Name: joint47
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.265297, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.149207, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/6d27db7f-9c47-4795-a958-e4dd89b672b1>
+  PrefabRemaps:
+    []
+  Name: ikHandle2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.528690, y: 1.749770, z: -3.557660}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/6d6ee2f8-c425-4beb-9e5a-c4607a839852>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/701c0495-1caa-4a6a-8010-0a705136219a>
+  PrefabRemaps:
+    []
+  Name: joint71
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.041347, y: 1.816015, z: 0.018801}
+    rotation: {x: -86.851250, y: 14.989504, z: 85.212456}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> eff518ec-f481-416e-a28f-ae98debabd2b
+  Components:
+    []
+- !<ObjectPrefab/71b281e8-f442-40e5-847b-540c708a8a08>
+  PackagePath: ""
+  objects:
+    - !<own> 56d91e1b-337d-4d3c-99a9-b73115a55a55
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/7247363a-ae28-4204-8af4-dcebaf280ef2>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle19
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dda81f0b-620a-4466-91db-f8a9719880e3
+    - !<own> bfcdee9e-d023-45cc-a3ab-26fa38734bf2
+    - !<own> 26215927-878d-4415-b10d-9a96ddb4f65d
+  Components:
+    []
+- !<RenderMeshVisual/728683d6-49e9-4ba3-ab66-9525bc7ec638>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0540fec9-0a47-4bf3-9039-322dbd7203f5
+  Mesh: !<reference> 67a6c526-2d67-4247-9b92-9b36bb9f6d7d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/76e87833-093e-414c-9419-a102ad3c3f41>
+  PrefabRemaps:
+    []
+  Name: joint82
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.968707, y: 0.000002, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: -12.274740}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4efdd8a1-0ba9-40a3-909c-7270b1459812
+  Components:
+    []
+- !<SceneObject/76fafc2d-dc96-4c02-9853-a59daa9e2c2c>
+  PrefabRemaps:
+    []
+  Name: joint67
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.968710, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -12.274740}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fe9f3892-631d-4796-9131-b50b406cc433
+  Components:
+    []
+- !<SceneObject/7dcf7aab-d835-4a92-824b-263d783c0ee8>
+  PrefabRemaps:
+    []
+  Name: joint78
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.290015, y: 0.459590, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7e779233-44f2-4f7e-869d-6520b2685acf>
+  PrefabRemaps:
+    []
+  Name: pSphere1_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.618563, y: -5.348978, z: -6.850901}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 728683d6-49e9-4ba3-ab66-9525bc7ec638
+- !<SceneObject/7ef429f0-fafa-448f-8379-de5b4b01e25b>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle35
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/87d08905-62b6-497f-a242-fb6f66216b04>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0540fec9-0a47-4bf3-9039-322dbd7203f5
+  Mesh: !<reference> d531438e-2451-4aa3-b562-ad9221a68f8c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/957b1d33-eeec-4b68-b617-ee11b99c49b4>
+  PrefabRemaps:
+    []
+  Name: joint46
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.615906, y: 0.461799, z: 2.142139}
+    rotation: {x: -99.388344, y: -50.396603, z: 100.391983}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6c33b2ac-7b84-49b4-a137-adac7c9af11f
+    - !<own> c81856c8-3387-4968-a24c-1aa1921565a9
+  Components:
+    []
+- !<SceneObject/964fc7e1-80a1-43dd-8076-74f83c8bda0f>
+  PrefabRemaps:
+    []
+  Name: joint91
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.378377, y: -0.165679, z: 2.276225}
+    rotation: {x: -27.591194, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9e65d6d1-07ca-4cd1-9ee1-a91b345b74b5>
+  PrefabRemaps:
+    []
+  Name: joint57
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.429010, y: -0.354600, z: -0.000000}
+    rotation: {x: 0.016628, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 701c0495-1caa-4a6a-8010-0a705136219a
+    - !<own> 0f922b22-4cd5-4033-b42f-9ff7e742b943
+    - !<own> 4f0e1b75-7471-4aeb-8b07-09ed543ce3f8
+    - !<own> 50983141-742d-4e51-9b05-1aed3a6244be
+    - !<own> 510efa3d-ff3d-4b41-a6d6-13bdedf5ea1f
+    - !<own> 1ae95493-3fb1-478f-ad87-14736c47b879
+    - !<own> d6020907-a95c-4a5d-93f8-23850d3b6c68
+    - !<own> 957b1d33-eeec-4b68-b617-ee11b99c49b4
+    - !<own> 29f993b0-7b98-4bfe-a1a6-f6b78a1066ca
+    - !<own> 964fc7e1-80a1-43dd-8076-74f83c8bda0f
+    - !<own> a26a66cf-fbe1-42de-8295-fd5887e5eefa
+    - !<own> ada9dd78-1818-43c5-a650-76ad7df3fc00
+    - !<own> a61c2900-18af-42b0-81dc-e242aea4a610
+  Components:
+    []
+- !<SceneObject/a26a66cf-fbe1-42de-8295-fd5887e5eefa>
+  PrefabRemaps:
+    []
+  Name: joint92
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.015645, y: -0.789836, z: 2.751826}
+    rotation: {x: -27.591194, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a4c32f09-7862-4d7f-971e-f99b315b3bae>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle37
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a61c2900-18af-42b0-81dc-e242aea4a610>
+  PrefabRemaps:
+    []
+  Name: joint97
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.378380, y: -0.165680, z: 2.276226}
+    rotation: {x: 152.408798, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/aad7ce45-646b-4d7a-8072-80b138094a39>
+  PrefabRemaps:
+    []
+  Name: joint76
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.322910, y: 0.000006, z: 0.000000}
+    rotation: {x: -0.000000, y: -0.000000, z: 76.650665}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0d15913f-9f76-46ca-bf29-aaff34bdc408
+    - !<own> 7dcf7aab-d835-4a92-824b-263d783c0ee8
+  Components:
+    []
+- !<SceneObject/ada9dd78-1818-43c5-a650-76ad7df3fc00>
+  PrefabRemaps:
+    []
+  Name: joint98
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.015640, y: -0.789833, z: 2.751826}
+    rotation: {x: 152.408798, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b08c99f2-73a7-45a2-9d81-f64f0ac5d011>
+  PrefabRemaps:
+    []
+  Name: joint90
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000000, y: 0.187723, z: -0.454829}
+    rotation: {x: 89.999420, y: -89.478851, z: -89.999657}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b44a977e-b98a-423f-9b08-f68979dc669a
+  Components:
+    []
+- !<SceneObject/b44a977e-b98a-423f-9b08-f68979dc669a>
+  PrefabRemaps:
+    []
+  Name: joint49
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.246510, y: 7.425736, z: 0.000000}
+    rotation: {x: -0.000000, y: -0.000000, z: 20.882458}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 31b3b5f7-16df-4b56-aa8e-b5f6e1c579ee
+    - !<own> 311dddba-5b93-47cd-9891-2278df8fde30
+    - !<own> 5e0ba493-d530-48df-a850-5b3a4a219c67
+    - !<own> 659f43da-a5b5-45c1-9aa6-aea850d22b46
+  Components:
+    []
+- !<SceneObject/b52c9e76-e644-419e-9f81-17dbbcf34ca5>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b9d5f933-6fc8-497d-82a8-78c06a12fa4c>
+  PrefabRemaps:
+    []
+  Name: joint55
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.989832, y: -0.160014, z: -0.000000}
+    rotation: {x: -180.000000, y: 0.000000, z: -140.270020}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/bdb3d8b3-6348-4810-80f1-f0f930dc9f0e>
+  PrefabRemaps:
+    []
+  Name: pSphere1_2 | Pivot
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.134806, y: 0.000377, z: -0.002657}
+    rotation: {x: -0.149207, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7e779233-44f2-4f7e-869d-6520b2685acf
+  Components:
+    []
+- !<SceneObject/bded20b6-c5c8-44ab-8b90-ae8363f90e86>
+  PrefabRemaps:
+    []
+  Name: joint52
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.837746, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.000000, y: -0.000000, z: -34.372021}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 12ad0130-ea84-40f7-9a61-be52afa1afa8
+  Components:
+    []
+- !<SceneObject/bfcdee9e-d023-45cc-a3ab-26fa38734bf2>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle10
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 01452133-08c8-40b2-a109-d4a8be152088
+    - !<own> e1cd33a1-1d48-44f5-8467-9cb1486758c7
+  Components:
+    []
+- !<SceneObject/c4e4296f-d635-41a4-9b8e-19af71c26bc9>
+  PrefabRemaps:
+    []
+  Name: joint59
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.625483, y: 0.026465, z: -0.178285}
+    rotation: {x: 180.000000, y: 0.000000, z: -74.093918}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6a4510ff-1bf6-4ec9-b70e-63aa66b47fe0
+  Components:
+    []
+- !<SceneObject/c59f9fbb-dbfa-465f-9252-afb0da3c3d46>
+  PrefabRemaps:
+    []
+  Name: joint87
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.501346, y: 0.000003, z: 0.000001}
+    rotation: {x: 73.855667, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/c81856c8-3387-4968-a24c-1aa1921565a9>
+  PrefabRemaps:
+    []
+  Name: pSphere1 | Pivot
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.134806, y: 0.000377, z: -0.002657}
+    rotation: {x: -0.149207, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 30dfa9dd-7b07-478a-926e-05b080f3ba5d
+  Components:
+    []
+- !<RenderMeshVisual/ca293a66-853a-4386-95ea-c73380fb5e30>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0540fec9-0a47-4bf3-9039-322dbd7203f5
+  Mesh: !<reference> 8a30a7f7-0179-4ebf-82ee-adc9bf9c53a2
+  Skin: !<reference> 618b7d1f-b275-48f0-a62a-12b67120f2a7
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/cdd61158-ba1c-48c1-92d4-c5f714d4922a>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle34
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ObjectPrefabAssetData/d0725b3b-1789-4b6b-96d3-fe5d21582e4a>
+  SourceRemaps:
+    - 0aa962f3-bb87-48fa-8520-cbc3dd422827: 58eaa0af-ed50-4362-94c3-dd884051db19
+    - 0ffc193d-52ef-4ee6-bf28-4e3020ccad3e: 351e6902-9c4f-4b98-b8b4-a5140e30b2fa
+    - 10f7ac9e-b9c6-4b6d-a9b8-da21cd4c0960: f276b4fa-2036-4782-a9b7-282f8302cd5e
+    - 1496eec5-b233-4a5a-b4b6-96566530718d: daad3050-cf33-4f71-a6c3-ca5f6d3556a2
+    - 18d7471f-a90d-44f9-b613-4d3a36f9d9aa: 56d91e1b-337d-4d3c-99a9-b73115a55a55
+    - 19110f39-a71a-4006-b5b0-6afd2c542200: 6c33b2ac-7b84-49b4-a137-adac7c9af11f
+    - 19f2eedb-6c79-4a0c-af64-cb6c9e3346de: 6a4510ff-1bf6-4ec9-b70e-63aa66b47fe0
+    - 1d4d637f-5c0c-4f99-8590-69f3ae8c92e4: 2be6163c-f6ae-468f-888c-fe878750407f
+    - 20183b9a-5408-4811-b0c6-886af9e824b8: 29f993b0-7b98-4bfe-a1a6-f6b78a1066ca
+    - 21799e3b-1b28-4966-8a26-6d7843dfac05: 50983141-742d-4e51-9b05-1aed3a6244be
+    - 21872d6c-9ba0-493c-ac39-dc873ab9f899: b9d5f933-6fc8-497d-82a8-78c06a12fa4c
+    - 21f852c4-2168-4580-aa2b-fdb911ff89b9: 3b90145d-0c1d-45de-9bdb-5c10ba5a24bc
+    - 235736c4-8e6f-4b5b-9cd8-f57fb441c65c: bfcdee9e-d023-45cc-a3ab-26fa38734bf2
+    - 23ba6174-727e-4412-a5e9-71d24aa0d934: 002faba0-b7bb-4cda-9a77-34e40d68016a
+    - 257dcf50-64a5-4075-84ef-cba761e0be86: 49e28a0d-321d-4abb-8036-b4bfef80bf54
+    - 258a9703-144d-420e-aa0d-9f5a4823f717: 9e65d6d1-07ca-4cd1-9ee1-a91b345b74b5
+    - 28f82bc5-6fd8-461c-ab9d-c2c305f1c654: 7e779233-44f2-4f7e-869d-6520b2685acf
+    - 2d347dca-774f-4478-b4e9-48eedc57b502: 31b3b5f7-16df-4b56-aa8e-b5f6e1c579ee
+    - 30c29cf5-cc80-4298-9efb-dde1ed74a7f4: 01452133-08c8-40b2-a109-d4a8be152088
+    - 3161a7f0-d464-4fb2-966a-6242b211375f: c59f9fbb-dbfa-465f-9252-afb0da3c3d46
+    - 328ca297-65db-47c6-9568-17e435d745e4: d6020907-a95c-4a5d-93f8-23850d3b6c68
+    - 377f40c2-d072-4b53-a23f-22189b3493b7: 7dcf7aab-d835-4a92-824b-263d783c0ee8
+    - 3b4db54a-0477-49c8-a045-e0cbdb106732: de6f7faf-aea0-4b34-b7df-c590624de987
+    - 3cc9614b-cf34-4494-9c2c-e2be313e8e33: 658eb83e-c10e-4dd9-9951-9e3d60408e2b
+    - 41f5cd07-f6e2-4b8a-96f0-0974d16e6b71: 4efdd8a1-0ba9-40a3-909c-7270b1459812
+    - 42048022-f719-4288-80f0-22ccc3fc36b2: c81856c8-3387-4968-a24c-1aa1921565a9
+    - 431134dd-b52c-42c0-81fc-1ca67b6dd575: ef2928ba-0101-4ef9-afa3-5c0582868be8
+    - 456f0248-b12d-4fee-b7ff-47287e41f760: dda81f0b-620a-4466-91db-f8a9719880e3
+    - 49365d6e-e94b-42f1-96d6-bace6e116cf3: 4728d272-2d5c-49b0-bc14-dc255c8d56de
+    - 4aeb122f-e9fd-4a03-83b2-16388fbe03bc: 0f922b22-4cd5-4033-b42f-9ff7e742b943
+    - 4af0ce45-ffaf-41c3-84b3-da4a32df5cd2: fe9f3892-631d-4796-9131-b50b406cc433
+    - 4b3bac37-7f8d-49f8-b2e3-5985efc487b8: f55c4e76-b6af-4810-8c0e-6a1b976a37f8
+    - 4be1eb1d-43d2-4a15-b7b7-4c6bfa53e6da: 7247363a-ae28-4204-8af4-dcebaf280ef2
+    - 4cba5e6e-a536-4d53-bccc-ddefd7fceca9: ed48bdf3-9120-49cb-865f-4112d6cdcbd2
+    - 4df058d9-6584-426d-bbcf-708338cd94dc: 6d6ee2f8-c425-4beb-9e5a-c4607a839852
+    - 507284c5-4c2f-48c5-ab3d-b6232ed186e3: 4f80260f-3322-42a3-9428-3b6df745f3cb
+    - 5421d2fc-876f-4f2a-9b64-b183956c708f: 87d08905-62b6-497f-a242-fb6f66216b04
+    - 5b42b25a-224e-4013-a6a4-6fdfdddae1eb: 35ce89d2-3265-468a-80e8-989ec1ea3862
+    - 5e702814-7de1-45ee-a9b8-9a5885b1b8a2: 2842086c-a8df-4e6a-a8ce-32d9b53eb264
+    - 6192abe3-3e47-48df-97f6-9fc173ad4131: 1ae95493-3fb1-478f-ad87-14736c47b879
+    - 62f0a000-2ee7-4775-89ac-da254034ba28: f64169c5-fd25-432a-a60b-b1565fed79ee
+    - 632469ef-a9e3-495e-bac9-8b23434a22a8: 3ea38ea3-7c0c-4f00-a2f1-384923263391
+    - 67b42d75-7894-4893-8f99-8cbd5bac60a5: a26a66cf-fbe1-42de-8295-fd5887e5eefa
+    - 69415432-7674-41b2-ae42-c7dfd9bb1a21: 3a01dc95-2818-494c-9644-de29f792bffc
+    - 69661258-1213-4c9e-ac4f-274549bd0687: 6d27db7f-9c47-4795-a958-e4dd89b672b1
+    - 6be035de-26cf-45ef-8268-a8475b01a5bf: b08c99f2-73a7-45a2-9d81-f64f0ac5d011
+    - 6e3330f3-6d7f-4f68-bf91-076e6bfbf5e0: 37e89770-f9cb-406e-9814-f70eea8e178a
+    - 70dd5c30-d2a1-4aec-82d0-5edc95d21ef6: 5e0ba493-d530-48df-a850-5b3a4a219c67
+    - 71c184e6-ca06-405a-9d16-221b1b0dbb39: 7ef429f0-fafa-448f-8379-de5b4b01e25b
+    - 73c4c317-bd14-485e-895d-6422b9292d3e: aad7ce45-646b-4d7a-8072-80b138094a39
+    - 7640519c-8152-4aa7-b965-d39932650ce9: b52c9e76-e644-419e-9f81-17dbbcf34ca5
+    - 769d7b3b-1191-4333-a356-7daffb799da1: bdb3d8b3-6348-4810-80f1-f0f930dc9f0e
+    - 7b91dcf7-4fb5-4b86-925e-4bd228078745: 096652ce-551d-4106-9d01-291efecb29a2
+    - 7df40d16-0b86-4121-9364-6b10a7171fe8: a61c2900-18af-42b0-81dc-e242aea4a610
+    - 8212ca02-de75-47ea-bf08-a1abfa1a1194: eff518ec-f481-416e-a28f-ae98debabd2b
+    - 86f7eee6-773a-4b63-a7d6-f987acea5c85: d3132447-c3e6-4d60-aa58-8a3fb856acc9
+    - 872e249a-1281-46f5-93a0-5ab75852b999: ada9dd78-1818-43c5-a650-76ad7df3fc00
+    - 8a8815b3-16de-493f-92dc-1870f68f6bb7: e1cd33a1-1d48-44f5-8467-9cb1486758c7
+    - 8e9df2de-28ce-4f98-b907-854654bf26ab: 957b1d33-eeec-4b68-b617-ee11b99c49b4
+    - 8f72a61f-5a1e-478c-9417-90a9e5b92a2c: cdd61158-ba1c-48c1-92d4-c5f714d4922a
+    - 96f14dc9-430d-4e6f-ad79-c92f21327033: e85d4adf-935b-4491-824f-e028ee656890
+    - 9711458d-f336-4990-846c-d11184624e92: a4c32f09-7862-4d7f-971e-f99b315b3bae
+    - 99d02bdc-a190-4a13-aa9d-c41966c56968: 44002cb0-cc6e-4c0f-af4b-1440317e4a52
+    - 9b9153d4-abd1-4aa2-8254-3bcc065038ef: 5c8a0c12-3fdd-46be-adc6-66f67a2f732a
+    - 9c364837-0199-4805-a61a-83a8cebe51fe: b44a977e-b98a-423f-9b08-f68979dc669a
+    - a57c5b77-4480-4306-90e9-ff021934b02b: 964fc7e1-80a1-43dd-8076-74f83c8bda0f
+    - a6770500-d199-4bba-87a2-f7d438e63255: 71b281e8-f442-40e5-847b-540c708a8a08
+    - a8617bb6-6ffd-4bce-9cd5-3ecc4f5c8132: 01ae254e-c297-428e-a578-c5b8a0c54aa2
+    - acc378d3-02dc-4505-aad7-c09cee4818d9: 510efa3d-ff3d-4b41-a6d6-13bdedf5ea1f
+    - b88bccc7-15ab-4bf2-b291-0b7ebb410597: 63e70cad-4eb9-458e-92ce-94e89bb0ef30
+    - ba150ea8-7cc7-4fd7-a574-56ff2ae5cd85: 618b7d1f-b275-48f0-a62a-12b67120f2a7
+    - c5b081ea-5e64-4daf-8b90-9422756a34f0: 4f0e1b75-7471-4aeb-8b07-09ed543ce3f8
+    - c5ffc48c-cb83-40ed-94bd-f21e7718ca0f: 6133329d-625a-48fc-9db6-ae989454e544
+    - ca954774-1d71-436a-8f86-6710fa775392: 104f280f-edb2-4f82-9041-db0f356e09c1
+    - cd1c13ce-b49f-467b-8af3-7864db113188: 1e02fdfc-4020-4dd4-93b0-45f3f1ac02df
+    - cd8d11e5-90b0-4549-bfdf-4cf9aeab053a: 728683d6-49e9-4ba3-ab66-9525bc7ec638
+    - d1d7b6a8-2905-4432-96c0-164c4071999a: c4e4296f-d635-41a4-9b8e-19af71c26bc9
+    - d2712322-6897-4603-833f-7a4d556123a3: bded20b6-c5c8-44ab-8b90-ae8363f90e86
+    - d45b7217-6315-499d-b279-160b942f3105: 659f43da-a5b5-45c1-9aa6-aea850d22b46
+    - d557865c-96a9-4c80-a471-a1633d1b6e2d: 26215927-878d-4415-b10d-9a96ddb4f65d
+    - de16e824-9d4d-4ec6-adec-267998f7106c: 76e87833-093e-414c-9419-a102ad3c3f41
+    - dfca3ed5-69d7-418f-9cc6-2f12bc35ee11: 12ad0130-ea84-40f7-9a61-be52afa1afa8
+    - e2621f3c-7ec4-4a86-b34e-fd0e54c32e26: 0d15913f-9f76-46ca-bf29-aaff34bdc408
+    - e598f46f-e14f-4d1f-86a6-6646763bbff1: 76fafc2d-dc96-4c02-9853-a59daa9e2c2c
+    - e7d66ba3-bc85-4e45-86c8-3a044833ad24: 701c0495-1caa-4a6a-8010-0a705136219a
+    - e8a8cb3d-aaf5-43c4-851a-6003ffb32491: 25286f35-597a-4b1a-9736-d8e488c4f26b
+    - e8e8c773-07c9-44e3-a2f1-d45608217e1b: f7a01687-2909-4268-a7ed-8a65ccf110c8
+    - e94d337b-b877-4d29-9535-e3311a51c18d: d56e295e-6208-4785-9807-15be4dc1a8d6
+    - f020f9c9-6934-4524-b8f0-d95558851dd3: ca293a66-853a-4386-95ea-c73380fb5e30
+    - f490b289-0224-4e5f-a552-14445cf24209: e49ab024-78ff-458a-b9a1-f2be6655fd6d
+    - f5b8b340-13a2-494a-98b9-8d4bf61eb8de: 19e74f70-ae75-417d-948e-7169fecaaf23
+    - fc398d10-f922-4267-b88e-3feb4abfb877: 311dddba-5b93-47cd-9891-2278df8fde30
+    - fe0e6c0d-2b61-469b-a4dd-a5467d57d169: 30dfa9dd-7b07-478a-926e-05b080f3ba5d
+    - fe6a6c60-e393-4a27-a6b3-db718b79c944: 1cd54622-e86e-4a27-b187-bf99f1dd315b
+  SourceState: !<own> 71b281e8-f442-40e5-847b-540c708a8a08
+- !<SceneObject/d3132447-c3e6-4d60-aa58-8a3fb856acc9>
+  PrefabRemaps:
+    []
+  Name: joint81
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.129238, y: 0.000000, z: 0.588620}
+    rotation: {x: 180.000000, y: -0.000000, z: -64.822243}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 76e87833-093e-414c-9419-a102ad3c3f41
+  Components:
+    []
+- !<SceneObject/d56e295e-6208-4785-9807-15be4dc1a8d6>
+  PrefabRemaps:
+    []
+  Name: pCube4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -1.197314}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ca293a66-853a-4386-95ea-c73380fb5e30
+- !<SceneObject/d6020907-a95c-4a5d-93f8-23850d3b6c68>
+  PrefabRemaps:
+    []
+  Name: joint96
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.817539, y: 1.184282, z: 1.780603}
+    rotation: {x: 152.408798, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/daad3050-cf33-4f71-a6c3-ca5f6d3556a2>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle16
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/dda81f0b-620a-4466-91db-f8a9719880e3>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle9
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b52c9e76-e644-419e-9f81-17dbbcf34ca5
+    - !<own> 2be6163c-f6ae-468f-888c-fe878750407f
+  Components:
+    []
+- !<SceneObject/de6f7faf-aea0-4b34-b7df-c590624de987>
+  PrefabRemaps:
+    []
+  Name: joint63
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.290012, y: -0.459589, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e1cd33a1-1d48-44f5-8467-9cb1486758c7>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle15
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e49ab024-78ff-458a-b9a1-f2be6655fd6d>
+  PrefabRemaps:
+    []
+  Name: joint64
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.041144, y: -1.665038, z: -0.614829}
+    rotation: {x: 90.000000, y: -68.395554, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ef2928ba-0101-4ef9-afa3-5c0582868be8
+  Components:
+    []
+- !<SceneObject/e85d4adf-935b-4491-824f-e028ee656890>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle33
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ed48bdf3-9120-49cb-865f-4112d6cdcbd2>
+  PrefabRemaps:
+    []
+  Name: Panda
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f64169c5-fd25-432a-a60b-b1565fed79ee
+  Components:
+    []
+- !<SceneObject/ef2928ba-0101-4ef9-afa3-5c0582868be8>
+  PrefabRemaps:
+    []
+  Name: joint65
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.327160, y: -0.000000, z: -0.588612}
+    rotation: {x: -174.198746, y: 3.395740, z: -80.385284}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5c8a0c12-3fdd-46be-adc6-66f67a2f732a
+  Components:
+    []
+- !<SceneObject/eff518ec-f481-416e-a28f-ae98debabd2b>
+  PrefabRemaps:
+    []
+  Name: joint72
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.501341, y: -0.000000, z: 0.000000}
+    rotation: {x: 73.855667, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/f276b4fa-2036-4782-a9b7-282f8302cd5e>
+  PrefabRemaps:
+    []
+  Name: joint62
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.127319, y: -0.000000, z: 0.000000}
+    rotation: {x: -8.403372, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/f55c4e76-b6af-4810-8c0e-6a1b976a37f8>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle36
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/f64169c5-fd25-432a-a60b-b1565fed79ee>
+  PrefabRemaps:
+    []
+  Name: nurbsCircle30
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b08c99f2-73a7-45a2-9d81-f64f0ac5d011
+  Components:
+    []
+- !<AnimationPlayer/f7a01687-2909-4268-a7ed-8a65ccf110c8>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a520796d-b00e-4528-9990-fabc340b5a5f
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/fe9f3892-631d-4796-9131-b50b406cc433>
+  PrefabRemaps:
+    []
+  Name: joint68
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.255129, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.000000, y: -0.000000, z: 73.155273}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1cd54622-e86e-4a27-b187-bf99f1dd315b
+    - !<own> 4728d272-2d5c-49b0-bc14-dc255c8d56de
+  Components:
+    []
