@@ -32,7 +32,7 @@ ARmigo is an AR experience for Snapchat Spectacles that alleviates anxiety throu
 - Captures user audio and video input.
 - Uses Lens Studio's speech recognition to convert audio to text.
 - Sends messages to AI agents for deep, thoughtful responses.
-- Integrates professional advice from medical databases and vision information using Gemini.
+- Integrates professional advice from medical databases and vision information.
 - Returns synthesized audio responses to the user for a natural, conversational experience.
 
 **Agent Framework**
