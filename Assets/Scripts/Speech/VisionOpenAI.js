@@ -85,7 +85,7 @@ async function handleTriggerEnd(eventData) {
     
     let input_text = script.textInput.text;
     script.textInput.text = "Input";
-    let url = "https://35a9-164-67-70-232.ngrok-free.app";
+    let url = "https://790f-164-67-70-232.ngrok-free.app";
     const agent_request = new Request(url, {
         method: "POST",
         headers: {
