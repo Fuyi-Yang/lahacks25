@@ -1101,6 +1101,9 @@
     toggledOnMaterial: true
     toggledOnSelectMaterial: true
     disabledMaterial: true
+    pageControllerObject: true
+    to_pageIndex: true
+    cur_pageIndex: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -1112,6 +1115,9 @@
       disabledMaterial: !<reference.Material> aacbe4a8-55c5-457a-9a89-7ecf366ca72a
       meshVisuals: !<reference.RenderMeshVisual[]>
         - !<reference> 7dcfb5cd-92ac-4019-9fde-1ba69eebe4e6
+      pageControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      to_pageIndex: !<float> 0.000000
+      cur_pageIndex: !<float> 0.000000
   ScriptTypes:
     "":
       {}
@@ -1382,6 +1388,9 @@
     toggledOnMaterial: true
     toggledOnSelectMaterial: true
     disabledMaterial: true
+    pageControllerObject: true
+    to_pageIndex: true
+    cur_pageIndex: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -1393,6 +1402,9 @@
       disabledMaterial: !<reference.Material> aacbe4a8-55c5-457a-9a89-7ecf366ca72a
       meshVisuals: !<reference.RenderMeshVisual[]>
         - !<reference> dc6466e1-a5d6-40e7-b67d-e04d6a77aa4b
+      pageControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      to_pageIndex: !<float> 0.000000
+      cur_pageIndex: !<float> 0.000000
   ScriptTypes:
     "":
       {}
@@ -2127,6 +2139,9 @@
     toggledOnMaterial: true
     toggledOnSelectMaterial: true
     disabledMaterial: true
+    pageControllerObject: true
+    to_pageIndex: true
+    cur_pageIndex: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -2138,6 +2153,9 @@
       disabledMaterial: !<reference.Material> aacbe4a8-55c5-457a-9a89-7ecf366ca72a
       meshVisuals: !<reference.RenderMeshVisual[]>
         - !<reference> 36df66ec-9973-41bf-9b84-c12caedae341
+      pageControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      to_pageIndex: !<float> 0.000000
+      cur_pageIndex: !<float> 0.000000
   ScriptTypes:
     "":
       {}
@@ -2962,6 +2980,9 @@
     toggledOnMaterial: true
     toggledOnSelectMaterial: true
     disabledMaterial: true
+    pageControllerObject: true
+    to_pageIndex: true
+    cur_pageIndex: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -2973,6 +2994,9 @@
       disabledMaterial: !<reference.Material> aacbe4a8-55c5-457a-9a89-7ecf366ca72a
       meshVisuals: !<reference.RenderMeshVisual[]>
         - !<reference> 7f08a10a-49b1-475c-a0e5-6824af96e2d6
+      pageControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      to_pageIndex: !<float> 0.000000
+      cur_pageIndex: !<float> 0.000000
   ScriptTypes:
     "":
       {}
@@ -5999,6 +6023,9 @@
     toggledOnMaterial: true
     toggledOnSelectMaterial: true
     disabledMaterial: true
+    pageControllerObject: true
+    to_pageIndex: true
+    cur_pageIndex: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -6010,6 +6037,9 @@
       disabledMaterial: !<reference.Material> aacbe4a8-55c5-457a-9a89-7ecf366ca72a
       meshVisuals: !<reference.RenderMeshVisual[]>
         - !<reference> cd50f221-1ee3-4a63-b8d2-a239b879c5c4
+      pageControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      to_pageIndex: !<float> 0.000000
+      cur_pageIndex: !<float> 0.000000
   ScriptTypes:
     "":
       {}

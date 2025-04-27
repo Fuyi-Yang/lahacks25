@@ -24,6 +24,12 @@ checkUndefined("toggledOnSelectMaterial", []);
 checkUndefined("disabledMaterial", []);
 // @input Component.RenderMeshVisual[] meshVisuals = {}
 checkUndefined("meshVisuals", []);
+// @input SceneObject pageControllerObject
+checkUndefined("pageControllerObject", []);
+// @input float to_pageIndex
+checkUndefined("to_pageIndex", []);
+// @input float cur_pageIndex
+checkUndefined("cur_pageIndex", []);
 var scriptPrototype = Object.getPrototypeOf(script);
 if (!global.BaseScriptComponent){
    function BaseScriptComponent(){}

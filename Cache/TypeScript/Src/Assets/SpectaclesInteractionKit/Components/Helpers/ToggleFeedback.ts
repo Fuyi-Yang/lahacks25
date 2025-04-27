@@ -20,6 +20,15 @@ export class ToggleFeedback extends BaseScriptComponent {
   @input
   meshVisuals: RenderMeshVisual[] = []
 
+  @input
+  pageControllerObject?: SceneObject
+
+  @input
+  to_pageIndex: number = 0
+
+  @input
+  cur_pageIndex: number = 0
+
   private toggleButton: ToggleButton | null = null
   private interactable: Interactable | null = null
 
@@ -112,35 +121,20 @@ export class ToggleFeedback extends BaseScriptComponent {
   // Sets up interactable callbacks.
   setupInteractableCallbacks(interactable: Interactable): void {
     validate(this.toggleButton)
-
+  
     interactable.onTriggerStart.add(() => {
+      // optional “pressed” feedback
       this.changeToggleOnMesh(
         this.toggledOnSelectMaterial,
         this.toggledOffSelectMaterial,
       )
-    })
-
-    interactable.onTriggerCanceled.add(() => {
-      this.changeToggleOnMesh(this.toggledOnMaterial, this.toggledOffMaterial)
-    })
-
-    this.toggleButton.createEvent("OnEnableEvent").bind(() => {
-      this.changeToggleOnMesh(this.toggledOnMaterial, this.toggledOffMaterial)
-    })
-
-    this.toggleButton.createEvent("OnDisableEvent").bind(() => {
-      this.changeMeshes(this.disabledMaterial)
-    })
-
-    this.toggleButton.onStateChanged.add((isToggledOn) => {
-      if (this.toggleButton?.enabled === false) {
-        this.changeMeshes(this.disabledMaterial)
-        return
+  
+      // call showPage once
+      if (this.pageControllerObject) {
+        const pc = this.pageControllerObject.getComponent("Component.ScriptComponent") as any
+        pc?.api?.toPage?.(this.to_pageIndex)
       }
-
-      this.changeMeshes(
-        isToggledOn ? this.toggledOnMaterial : this.toggledOffMaterial,
-      )
     })
   }
+  
 }

@@ -17,6 +17,7 @@ const Interactable_1 = require("../../Interaction/Interactable/Interactable");
  */
 let ToggleButton = class ToggleButton extends BaseScriptComponent {
     onAwake() {
+        print("hello");
         this.interactable = this.getSceneObject().getComponent(Interactable_1.Interactable.getTypeName());
         this.createEvent("OnStartEvent").bind(() => {
             if (!this.interactable) {

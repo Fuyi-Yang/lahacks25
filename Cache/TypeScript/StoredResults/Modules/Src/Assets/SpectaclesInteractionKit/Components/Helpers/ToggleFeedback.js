@@ -77,24 +77,14 @@ let ToggleFeedback = class ToggleFeedback extends BaseScriptComponent {
     setupInteractableCallbacks(interactable) {
         (0, validate_1.validate)(this.toggleButton);
         interactable.onTriggerStart.add(() => {
+            var _a, _b;
+            // optional “pressed” feedback
             this.changeToggleOnMesh(this.toggledOnSelectMaterial, this.toggledOffSelectMaterial);
-        });
-        interactable.onTriggerCanceled.add(() => {
-            this.changeToggleOnMesh(this.toggledOnMaterial, this.toggledOffMaterial);
-        });
-        this.toggleButton.createEvent("OnEnableEvent").bind(() => {
-            this.changeToggleOnMesh(this.toggledOnMaterial, this.toggledOffMaterial);
-        });
-        this.toggleButton.createEvent("OnDisableEvent").bind(() => {
-            this.changeMeshes(this.disabledMaterial);
-        });
-        this.toggleButton.onStateChanged.add((isToggledOn) => {
-            var _a;
-            if (((_a = this.toggleButton) === null || _a === void 0 ? void 0 : _a.enabled) === false) {
-                this.changeMeshes(this.disabledMaterial);
-                return;
+            // call showPage once
+            if (this.pageControllerObject) {
+                const pc = this.pageControllerObject.getComponent("Component.ScriptComponent");
+                (_b = (_a = pc === null || pc === void 0 ? void 0 : pc.api) === null || _a === void 0 ? void 0 : _a.toPage) === null || _b === void 0 ? void 0 : _b.call(_a, this.to_pageIndex);
             }
-            this.changeMeshes(isToggledOn ? this.toggledOnMaterial : this.toggledOffMaterial);
         });
     }
     __initialize() {
