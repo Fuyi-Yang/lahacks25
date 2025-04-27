@@ -1,35 +1,35 @@
 - !<AssetCache>
   AssetFiles:
     c403bf42-b482-4aef-8906-13532712a354: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/Rocket_clouds_emit.vfxgraph
-    d8b54256-2a8a-4bcd-921e-babcc9837f54: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/script_39.js
-    18f634cb-7413-49ad-93a6-8adf3c1e9b2e: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/feedback_39.mat
-    d374cb6c-ef70-4b29-9ca0-4e695efe70d3: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/feedback_39.glsl
-    8e1de72d-812a-4fd0-88ae-f5f61aecde45: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/render_39.mat
-    f85676bb-a27a-478c-a22f-dc8a7b5d775f: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/render_39.glsl
-    bdc1ecc9-bc52-4741-a8c9-7c9fe3a5247c: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/simulate_39.mat
-    5409c154-44aa-4bb6-9030-b4a8bb0d0440: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/simulate_39.glsl
+    cb0e307d-b338-4180-8caf-eb1c8e2ed323: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/script_39.js
+    683d61da-1676-4660-8bc6-c3f598e7429d: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/feedback_39.mat
+    7dc579f7-1c13-4da9-8b89-70cd87b154f8: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/feedback_39.glsl
+    208d0da9-61c3-47c8-9dbd-7f9fd9e8c05c: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/render_39.mat
+    f4158632-83cf-4174-a1d6-55761984023b: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/render_39.glsl
+    16f50fb2-798a-486d-88c3-4a350e9b7d82: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/simulate_39.mat
+    78d36915-47b5-4172-b9cc-1c8f24aeb742: 5830691d-46dd-4493-8254-c5bb46b48e86/b85e960e468dfcc762d37b7d1365232c/Data/c852756/System_39/simulate_39.glsl
   Assets:
     - !<VFXAsset/c403bf42-b482-4aef-8906-13532712a354>
       PackagePath: ""
       GraphPath: ""
       Systems:
-        39: !<VFXSystem/ef8814d9-0b32-4970-b3a2-3e954ba3f7e6>
-          FeedbackMaterial: !<Material/18f634cb-7413-49ad-93a6-8adf3c1e9b2e>
+        39: !<VFXSystem/21c43221-1b38-4b3f-8ec3-7c883cdbda14>
+          FeedbackMaterial: !<Material/683d61da-1676-4660-8bc6-c3f598e7429d>
             PackagePath: ""
             PassesInfo:
-              - !<own> 09c257af-d4d4-49de-a1f9-df376fd1491a
+              - !<own> 5e43bd80-b170-4fc4-9b9b-1781150023ec
             Name: Material_Feedback
-          SimulateMaterial: !<Material/bdc1ecc9-bc52-4741-a8c9-7c9fe3a5247c>
+          SimulateMaterial: !<Material/16f50fb2-798a-486d-88c3-4a350e9b7d82>
             PackagePath: ""
             PassesInfo:
-              - !<own> 9d506821-2e21-410d-9f19-6d1a8a6ad42e
+              - !<own> da49c3ca-267f-4acc-88ed-61e4b067ceed
             Name: Material_Simulate
-          RenderMaterial: !<Material/8e1de72d-812a-4fd0-88ae-f5f61aecde45>
+          RenderMaterial: !<Material/208d0da9-61c3-47c8-9dbd-7f9fd9e8c05c>
             PackagePath: ""
             PassesInfo:
-              - !<own> b763b515-6799-4aa3-af6e-cfc725f3dbf8
+              - !<own> e9035484-6475-4c23-81ad-f8405f296025
             Name: Material_Render
-          FeedbackPass: !<Pass/d374cb6c-ef70-4b29-9ca0-4e695efe70d3>
+          FeedbackPass: !<Pass/7dc579f7-1c13-4da9-8b89-70cd87b154f8>
             PackagePath: ""
             DefaultDefines:
               []
@@ -552,7 +552,7 @@
                 []
               PassBindings:
                 []
-          SimulatePass: !<Pass/5409c154-44aa-4bb6-9030-b4a8bb0d0440>
+          SimulatePass: !<Pass/78d36915-47b5-4172-b9cc-1c8f24aeb742>
             PackagePath: ""
             DefaultDefines:
               []
@@ -1154,7 +1154,7 @@
                   mDefaultVal: 0.500000
                   mValues:
                     []
-          RenderPass: !<Pass/f85676bb-a27a-478c-a22f-dc8a7b5d775f>
+          RenderPass: !<Pass/f4158632-83cf-4174-a1d6-55761984023b>
             PackagePath: ""
             DefaultDefines:
               []
@@ -1690,7 +1690,7 @@
                   mDefaultVal: 0.500000
                   mValues:
                     []
-          Script: !<JavaScriptAsset/d8b54256-2a8a-4bcd-921e-babcc9837f54>
+          Script: !<JavaScriptAsset/cb0e307d-b338-4180-8caf-eb1c8e2ed323>
             PackagePath: Manager_Script
             Description: ""
             SvgIcon: ""
@@ -1745,7 +1745,7 @@
   FileHash: 738caff7ba659a9503cd8d2b8fbee7fa
   NativePackageItems:
     []
-- !<PassInfo/09c257af-d4d4-49de-a1f9-df376fd1491a>
+- !<PassInfo/5e43bd80-b170-4fc4-9b9b-1781150023ec>
   CachedProperties:
     []
   DepthWrite: false
@@ -1810,8 +1810,8 @@
           borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
           mipmaps: false
         type: Texture2D
-  Pass: !<reference> d374cb6c-ef70-4b29-9ca0-4e695efe70d3
-- !<PassInfo/9d506821-2e21-410d-9f19-6d1a8a6ad42e>
+  Pass: !<reference> 7dc579f7-1c13-4da9-8b89-70cd87b154f8
+- !<PassInfo/da49c3ca-267f-4acc-88ed-61e4b067ceed>
   CachedProperties:
     - uReset:
         typeIdx: 0
@@ -1845,6 +1845,12 @@
     Port_Import_N024:
       typeIdx: 1
       value: 4.000000
+    Port_Import_N042:
+      typeIdx: 1
+      value: 0.500000
+    Port_Import_N043:
+      typeIdx: 1
+      value: 1.200000
     Port_Import_N053:
       typeIdx: 1
       value: -20.000000
@@ -2142,6 +2148,12 @@
     "vfxBatchEnable[9]":
       typeIdx: 2
       value: false
+    vfxLocalAabbMax:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    vfxLocalAabbMin:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
     "vfxModelMatrix[0]":
       typeIdx: 8
       value:
@@ -2381,8 +2393,8 @@
     vfxTargetWidth:
       typeIdx: 0
       value: 0
-  Pass: !<reference> 5409c154-44aa-4bb6-9030-b4a8bb0d0440
-- !<PassInfo/b763b515-6799-4aa3-af6e-cfc725f3dbf8>
+  Pass: !<reference> 78d36915-47b5-4172-b9cc-1c8f24aeb742
+- !<PassInfo/e9035484-6475-4c23-81ad-f8405f296025>
   CachedProperties:
     []
   DepthWrite: true
@@ -2468,6 +2480,12 @@
     Port_Value3_N068:
       typeIdx: 5
       value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
     renderTarget0:
       typeIdx: 9
       value:
@@ -2624,4 +2642,4 @@
     vfxTargetWidth:
       typeIdx: 0
       value: 0
-  Pass: !<reference> f85676bb-a27a-478c-a22f-dc8a7b5d775f
+  Pass: !<reference> f4158632-83cf-4174-a1d6-55761984023b

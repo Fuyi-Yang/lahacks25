@@ -4,11 +4,12 @@
 // @input Component.Script ttsComponent {"hint":"Attach the TextToSpeechOpenAI Component"}
 // @input SceneObject interactableObject {"hint":"Drag the SceneObject that has the Interactable component"}
 
-const apiKey = "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";
+const apiKey =
+  "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";
 
 // Remote service module for fetching data
 var remoteServiceModule = require("LensStudio:RemoteServiceModule");
-
+var isListening = false;
 var isProcessing = false;
 
 script.createEvent("OnStartEvent").bind(() => {
@@ -41,7 +42,14 @@ function onStart() {
 
   // Define the callback for trigger end event
   const onTriggerEndCallback = (event) => {
-    handleTriggerEnd(event);
+    if (isListening) {
+      handleTriggerEnd(event);
+      print("Vision, start listening");
+      isListening = false;
+    } else {
+      isListening = true;
+      print("Vision, end listening");
+    }
     print(
       `Interaction triggered by: ${event.interactor.inputType} at position: ${event.interactor.targetHitInfo.hit.position}`
     );
@@ -80,8 +88,8 @@ async function handleTriggerEnd(eventData) {
         {
           role: "system",
           content:
-            "You are a helpful AI assistant that works for Snapchat that has access to the view that the user is looking at using Augmented Reality Glasses." +
-            " The user is asking for help with the following image and text. Keep it short like under 30 words. Be a little funny and keep it positive.",
+            "You are a helpful AI therapist that works for Snapchat that has access to the view that the user is looking at using Augmented Reality Glasses." +
+            " The user is under their anxiety and need some accompaniments and therapy session with the following image and text. Keep it short like under 30 words. Be funny and healing, try to foward the conversation and make the user feel relieved and cozy! And remember to encourage the user to speak up! about their story or experience",
         },
         {
           role: "user",
