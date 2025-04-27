@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 601
+    size: 606
     values:
       - Base 2.png
       - Base.png
@@ -13,54 +13,59 @@ CollapsedEntities:
       - MaterialParams.png
       - Normal.png
       - PBR.mat
-      - Prefabs
       - Prefabs/Button.prefab
       - Prefabs/Rect_Button.prefab
+      - Prefabs/chair/source/Chair.fbx
+      - Prefabs/chair/textures
+      - Prefabs/couch-prop
+      - Prefabs/couch-prop/source
+      - Prefabs/couch-prop/source/CouchOffice.zip
+      - Prefabs/couch-prop/textures
+      - Prefabs/couch-prop/textures/Couch_Base_BaseColor.png
+      - Prefabs/couch-prop/textures/Couch_Base_Metallic.png
+      - Prefabs/couch-prop/textures/Couch_Base_Normal.png
+      - Prefabs/couch-prop/textures/Couch_Base_Roughness.png
+      - Prefabs/couch-prop/textures/Couch_Material.001_BaseColor.png
+      - Prefabs/couch-prop/textures/Couch_Material.001_Metallic.png
+      - Prefabs/couch-prop/textures/Couch_Material.001_Normal.png
+      - Prefabs/couch-prop/textures/Couch_Material.001_Roughness.png
+      - Prefabs/couch-prop/textures/Couch_Pillow_BaseColor.png
+      - Prefabs/couch-prop/textures/Couch_Pillow_Metallic.png
+      - Prefabs/couch-prop/textures/Couch_Pillow_Normal.png
+      - Prefabs/couch-prop/textures/Couch_Pillow_Roughness.png
+      - Prefabs/couch-prop/textures/internal_ground_ao_texture.jpeg
       - Prefabs/therapist_sitting.fbx
       - Prefabs/therapist_sitting.fbx/.hidden
-      - Prefabs/therapist_sitting.fbx/.hidden/Ch02_body
       - Prefabs/therapist_sitting.fbx/.hidden/white
       - Prefabs/therapist_sitting.fbx/Animations
       - Prefabs/therapist_sitting.fbx/Animations/Take 001
       - Prefabs/therapist_sitting.fbx/Animations/mixamo.com
       - Prefabs/therapist_sitting.fbx/Materials
-      - Prefabs/therapist_sitting.fbx/Materials/Ch02_body
-      - Prefabs/therapist_sitting.fbx/Materials/Ch02_hair
       - Prefabs/therapist_sitting.fbx/Meshes
-      - Prefabs/therapist_sitting.fbx/Meshes/Ch02_Body
-      - Prefabs/therapist_sitting.fbx/Meshes/Ch02_Cloth
-      - Prefabs/therapist_sitting.fbx/Meshes/Ch02_Eyelashes
-      - Prefabs/therapist_sitting.fbx/Meshes/Ch02_Hair
-      - Prefabs/therapist_sitting.fbx/Meshes/Ch02_Sneakers
-      - Prefabs/therapist_sitting.fbx/Meshes/Ch02_Socks
       - Prefabs/therapist_sitting.fbx/Textures
-      - Prefabs/therapist_sitting.fbx/Textures/Ch02_1001_Diffuse
-      - Prefabs/therapist_sitting.fbx/Textures/Ch02_1001_Normal
-      - Prefabs/therapist_sitting.fbx/Textures/Ch02_1002_Diffuse
-      - Prefabs/therapist_sitting.fbx/Textures/Ch02_1002_Normal
       - Prefabs/therapist_sitting.fbx/therapist_sitting
       - Prefabs/therapist_standing.fbx
       - Prefabs/therapist_standing.fbx/.hidden
-      - Prefabs/therapist_standing.fbx/.hidden/Ch26_body
+      - Prefabs/therapist_standing.fbx/.hidden/Ch22_body
       - Prefabs/therapist_standing.fbx/.hidden/white
       - Prefabs/therapist_standing.fbx/Animations
       - Prefabs/therapist_standing.fbx/Animations/Take 001
       - Prefabs/therapist_standing.fbx/Animations/mixamo.com
       - Prefabs/therapist_standing.fbx/Materials
-      - Prefabs/therapist_standing.fbx/Materials/Ch26_body
-      - Prefabs/therapist_standing.fbx/Materials/Ch26_hair
+      - Prefabs/therapist_standing.fbx/Materials/Ch22_body
+      - Prefabs/therapist_standing.fbx/Materials/Ch22_hair
       - Prefabs/therapist_standing.fbx/Meshes
-      - Prefabs/therapist_standing.fbx/Meshes/Ch26_Body
-      - Prefabs/therapist_standing.fbx/Meshes/Ch26_Eyelashes
-      - Prefabs/therapist_standing.fbx/Meshes/Ch26_Hair
-      - Prefabs/therapist_standing.fbx/Meshes/Ch26_Heels
-      - Prefabs/therapist_standing.fbx/Meshes/Ch26_Shirt
-      - Prefabs/therapist_standing.fbx/Meshes/Ch26__Pants
+      - Prefabs/therapist_standing.fbx/Meshes/Ch22_Body
+      - Prefabs/therapist_standing.fbx/Meshes/Ch22_Eyelashes
+      - Prefabs/therapist_standing.fbx/Meshes/Ch22_Hair
+      - Prefabs/therapist_standing.fbx/Meshes/Ch22_Pants
+      - Prefabs/therapist_standing.fbx/Meshes/Ch22_Shirt
+      - Prefabs/therapist_standing.fbx/Meshes/Ch22_Sneakers
       - Prefabs/therapist_standing.fbx/Textures
-      - Prefabs/therapist_standing.fbx/Textures/Ch26_1001_Diffuse
-      - Prefabs/therapist_standing.fbx/Textures/Ch26_1001_Normal
-      - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Diffuse
-      - Prefabs/therapist_standing.fbx/Textures/Ch26_1002_Normal
+      - Prefabs/therapist_standing.fbx/Textures/Ch22_1001_Diffuse
+      - Prefabs/therapist_standing.fbx/Textures/Ch22_1001_Normal
+      - Prefabs/therapist_standing.fbx/Textures/Ch22_1002_Diffuse
+      - Prefabs/therapist_standing.fbx/Textures/Ch22_1002_Normal
       - Prefabs/therapist_standing.fbx/therapist_standing
       - Render Target.renderTarget
       - Scene 2.scene
