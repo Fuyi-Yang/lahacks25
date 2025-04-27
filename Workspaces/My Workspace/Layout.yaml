@@ -49,9 +49,9 @@ dock:
         type: section
         current: 0
     sizes:
-      - 398
-      - 258
-      - 384
-      - 479
+      - 295
+      - 410
+      - 489
+      - 325
     type: splitter
     orientation: horizontal

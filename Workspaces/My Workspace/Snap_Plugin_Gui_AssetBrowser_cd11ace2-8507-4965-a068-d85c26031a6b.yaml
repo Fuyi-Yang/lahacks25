@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 632
+    size: 635
     values:
       - Base.png
       - Echopark.hdr
@@ -54,9 +54,12 @@ CollapsedEntities:
       - Prefabs/therapist_standing.fbx/therapist_standing
       - Scripts/Audio Output.audioOutput
       - Scripts/PageController.js
+      - Scripts/Speech/SpeechToText.js
+      - Scripts/Speech/VisionOpenAI.js
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js
       - Scripts/bubbleTouchHandler.js
+      - Scripts/fetchServerTest.js
       - Scripts/introBubbleController.js
       - Scripts/therapistAgentScript.js
       - SpectaclesInteractionKit/Assets/Audio
@@ -375,7 +378,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
       - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
-      - SpectaclesInteractionKit/Examples/RocketWorkshop
+      - SpectaclesInteractionKit/Examples
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
