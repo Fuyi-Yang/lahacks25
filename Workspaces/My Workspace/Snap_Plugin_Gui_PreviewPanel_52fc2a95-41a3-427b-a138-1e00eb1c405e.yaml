@@ -36,11 +36,11 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: "C:/Program Files/Snap Inc/Lens Studio/InteractiveResources.bundle/Scenes/Sunlit Room"
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
   options: 4
 previewType:
   type: string
-  value: Interactive
+  value: Multimedia
   options: 4
 recordInput:
   type: bool
