@@ -26,12 +26,14 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    interactableObject: false
     textInput: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
