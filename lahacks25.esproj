@@ -26,11 +26,13 @@ metaInfo:
     []
   lensName: Specs Starter
   lensDescriptors:
-    []
+    - EXPERIMENTAL_API
   lensApplicability:
     - Front
     - Back
   lensClientCompatibilities:
+    - Mobile
+    - Web
     - Spectacles
   platformBundlesEnabled: false
   iconHash: ""
