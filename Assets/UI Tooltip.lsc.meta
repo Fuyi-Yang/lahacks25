@@ -52,8 +52,8 @@
   ExtraData:
     {}
   AssetDataMap:
-    Resources/Tooltip_World/Tooltip_World: !<own> f7320672-e0aa-4be3-ba17-d34c785feb4b
     Resources/Tooltip_Points_Pixels/TooltipPointsPixels: !<own> 89e5962b-14c5-4f14-a190-3a9b3aa2ba43
+    Resources/Tooltip_World/Tooltip_World: !<own> f7320672-e0aa-4be3-ba17-d34c785feb4b
   DependentFiles:
     []
   ImporterSettings: !<LensCoreImporterSettings>

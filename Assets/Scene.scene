@@ -3657,14 +3657,13 @@
   Enabled: true
   ScriptAsset: !<reference> c0dd4515-23c0-4f83-bd05-1a828a8067fb
   ScriptInputsDefault:
-    textInput: true
-    interactableObject: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textInput: !<reference.Text> a3db1670-c4ad-4a66-9dbe-f70238e3e41e
+      interactableObject: !<reference.SceneObject> 51a2461a-208e-4369-a7a7-de79d7c23b85
   ScriptTypes:
     "":
       {}
@@ -22204,7 +22203,7 @@
   PrefabRemaps:
     []
   Name: Page 3
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -22506,16 +22505,14 @@
   Enabled: true
   ScriptAsset: !<reference> 7f3e29eb-0f40-4119-960b-775d9ec0a7e5
   ScriptInputsDefault:
-    audioComponent: true
-    audioOutputAsset: true
-    voice: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-      audioOutputAsset: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
-      voice: ""
+      audioComponent: !<reference.AudioComponent> fbb58af3-1e05-453c-a7d1-62d7d611920e
+      audioOutputAsset: !<reference.AudioTrackAsset> 848c1e6d-a66d-425a-be1a-b218af723b3b
+      voice: alloy
   ScriptTypes:
     "":
       {}
@@ -24855,7 +24852,7 @@
   PrefabRemaps:
     []
   Name: Page 1
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: -9.095615}
@@ -32986,7 +32983,7 @@
   PrefabRemaps:
     []
   Name: Page 2
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
