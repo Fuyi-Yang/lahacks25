@@ -11,6 +11,7 @@ const apiKey =
 var remoteServiceModule = require("LensStudio:RemoteServiceModule");
 var isListening = false;
 var isProcessing = false;
+let conversation_history = [];
 
 script.createEvent("OnStartEvent").bind(() => {
   onStart();
@@ -81,6 +82,36 @@ async function handleTriggerEnd(eventData) {
     }
 
     const base64Image = await encodeTextureToBase64(texture);
+    
+    let input_text = script.textInput.text;
+    script.textInput.text = "Input";
+    let url = "https://80d4-164-67-70-232.ngrok-free.app";
+    const agent_request = new Request(url, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({"history": conversation_history, "message": input_text})
+    });
+            
+    let agent_response = await remoteServiceModule.fetch(agent_request);
+    let agentData = "";
+    if (agent_response.status == 200)
+    {
+        agentData = await agent_response.json()['result']['output'];
+        let new_agent_converstion = {"input": input_text, "output": agentData};
+        
+        conversation_history.push(new_agent_conversation);
+        if (conversation_history.length > 5)
+        {
+            conversation_history.shift();
+        }
+    }
+    else {
+        print("Failure: agent response not successful");
+        return;
+    }
+    
 
     const requestPayload = {
       model: "gpt-4o-mini",
@@ -94,7 +125,8 @@ async function handleTriggerEnd(eventData) {
         {
           role: "user",
           content: [
-            { type: "text", text: script.textInput.text },
+            { type: "text", text: input_text },
+            { type: "text", text: "Professional advice: " + agentData },
             {
               type: "image_url",
               image_url: {
@@ -117,6 +149,7 @@ async function handleTriggerEnd(eventData) {
 
     let response = await remoteServiceModule.fetch(request);
     if (response.status === 200) {
+      // get text + image response
       print("step 1");
       let responseData = await response.json();
       script.textOutput.text = responseData.choices[0].message.content;

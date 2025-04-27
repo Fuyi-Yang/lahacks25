@@ -8,6 +8,8 @@ from langchain.agents import initialize_agent, AgentType
 from langchain_community.tools.tavily_search.tool import TavilySearchResults
 from dotenv import load_dotenv
 
+from flask import Flask, request, jsonify
+
 class ASI1MINI(LLM):
     api_key: str = Field(...)
     api_url: str = Field(...)
@@ -91,6 +93,26 @@ def custom_search_handler(data):
         return {"error": str(e)}
 
 
-print(custom_search_handler({"search_query": "How tall is the Eiffle Tower?"}))
+app = Flask(__name__)
+
+@app.route('/', methods=['POST', 'GET'])
+def handler():
+    print("hello")
+    data = request.get_json()
+    print(data)
+    prompt = """You are a helpful AI therapist that works for Snapchat that has access to the view that the user is looking at using Augmented Reality Glasses.
+ The user is under their anxiety and need some accompaniments and therapy session with the following image and text. Keep it short like under 30 words. Be funny and healing, try to foward the conversation and make the user feel relieved and cozy! And remember to encourage the user to speak up! about their story or experience"""
+    history = data["history"]
+    prompt += "Historical Conversations:\n"
+    for message in history:
+        prompt += messages[f"Human: {message['input']}\nAgent: {message['output']}"] + '\n\n'
+    prompt += "Current Human Message:\n" + data["message"]
+
+    result = custom_search_handler({"search_query": prompt})
+
+    return result, 200
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=5000, debug=True)
 
 
