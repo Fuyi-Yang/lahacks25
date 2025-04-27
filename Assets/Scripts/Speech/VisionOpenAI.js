@@ -85,7 +85,7 @@ async function handleTriggerEnd(eventData) {
     
     let input_text = script.textInput.text;
     script.textInput.text = "Input";
-    let url = "https://80d4-164-67-70-232.ngrok-free.app";
+    let url = "https://35a9-164-67-70-232.ngrok-free.app";
     const agent_request = new Request(url, {
         method: "POST",
         headers: {
@@ -98,14 +98,17 @@ async function handleTriggerEnd(eventData) {
     let agentData = "";
     if (agent_response.status == 200)
     {
-        agentData = await agent_response.json()['result']['output'];
-        let new_agent_converstion = {"input": input_text, "output": agentData};
-        
+        print("step 0");
+        agentData = await agent_response.json();
+        agentData = agentData['result']['output'];
+        /*
+        let new_agent_conversation = {"input": input_text, "output": agentData};
         conversation_history.push(new_agent_conversation);
         if (conversation_history.length > 5)
         {
             conversation_history.shift();
         }
+        */
     }
     else {
         print("Failure: agent response not successful");
