@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 
 from flask import Flask, request, jsonify
 
+
 class ASI1MINI(LLM):
     api_key: str = Field(...)
     api_url: str = Field(...)
