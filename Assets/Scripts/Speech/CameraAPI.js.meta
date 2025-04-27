@@ -1,40 +1,37 @@
-- !<AssetImportMetadata/84a93ec8-e311-41af-b57a-59caf1002be5>
+- !<AssetImportMetadata/014010e7-b3d5-4e54-93d3-febc4547195a>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> edbced8a-38ff-418b-b2ec-26ec3f5b3356
+    JavaScriptAsset: !<reference> 469e36aa-afce-450f-8e38-8356765edf18
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> edbced8a-38ff-418b-b2ec-26ec3f5b3356
+  PrimaryAsset: !<reference> 469e36aa-afce-450f-8e38-8356765edf18
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    JavaScriptAsset: !<own> 4c468ea7-d55e-447f-b68d-8e5145974b1d
+    JavaScriptAsset: !<own> 390dca3d-ea2b-4046-8f4a-ef171ceb0530
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/4c468ea7-d55e-447f-b68d-8e5145974b1d>
+- !<ScriptAssetData/390dca3d-ea2b-4046-8f4a-ef171ceb0530>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: ffa9a0ab-a2b9-4d09-940c-26a11ae00231
+  ComponentUid: 911c2213-e518-439f-bb39-c0075a676e67
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    chatScreen: false
-    pages: false
+    uiImage: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - pages: !<reference.SceneObject[]>
-        []
-      chatScreen: !<RequiredType.chatScreenController> 00000000-0000-0000-0000-000000000000
+    - uiImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

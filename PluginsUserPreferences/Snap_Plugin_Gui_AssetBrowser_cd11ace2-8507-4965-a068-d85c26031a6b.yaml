@@ -65,7 +65,7 @@ CollapsedEntities:
       - Render Target.renderTarget
       - Scene 2.scene
       - Scene.scene
-      - Scripts
+      - Scripts/Audio Output.audioOutput
       - Scripts/PageController.js
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js

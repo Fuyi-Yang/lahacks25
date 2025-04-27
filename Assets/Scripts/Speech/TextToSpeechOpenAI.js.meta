@@ -1,40 +1,41 @@
-- !<AssetImportMetadata/84a93ec8-e311-41af-b57a-59caf1002be5>
+- !<AssetImportMetadata/ea57a9ba-12c9-4bed-b69f-976234afb709>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> edbced8a-38ff-418b-b2ec-26ec3f5b3356
+    JavaScriptAsset: !<reference> 7f3e29eb-0f40-4119-960b-775d9ec0a7e5
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> edbced8a-38ff-418b-b2ec-26ec3f5b3356
+  PrimaryAsset: !<reference> 7f3e29eb-0f40-4119-960b-775d9ec0a7e5
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    JavaScriptAsset: !<own> 4c468ea7-d55e-447f-b68d-8e5145974b1d
+    JavaScriptAsset: !<own> 178a740f-2eb4-4b5c-b57a-589184fa347a
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/4c468ea7-d55e-447f-b68d-8e5145974b1d>
+- !<ScriptAssetData/178a740f-2eb4-4b5c-b57a-589184fa347a>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: ffa9a0ab-a2b9-4d09-940c-26a11ae00231
+  ComponentUid: daf9ba4b-58de-45dd-b410-7007cc3c6ca1
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    chatScreen: false
-    pages: false
+    audioComponent: false
+    audioOutputAsset: false
+    voice: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - pages: !<reference.SceneObject[]>
-        []
-      chatScreen: !<RequiredType.chatScreenController> 00000000-0000-0000-0000-000000000000
+    - audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audioOutputAsset: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      voice: ""
   ScriptTypes:
     -
       {}

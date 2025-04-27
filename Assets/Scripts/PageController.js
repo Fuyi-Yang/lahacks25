@@ -1,35 +1,28 @@
-//// PageController.js
-//// @input SceneObject[] pages   // ← this lives in a comment, not as a TS decorator
-//
-//var current = 0;
-//
-//function showPage(idx) {
-//    print("im here");
-//    for (var i = 0; i < script.pages.length; i++) {
-//        script.pages[i].enabled = (i === idx);
-//    }
-//    current = idx;
-//}
-//
-//// expose next/prev so other scripts can call them
-//script.api.nextPage = function() {
-//    showPage((current + 1) % script.pages.length);
-//};
-//script.api.prevPage = function() {
-//    showPage((current - 1 + script.pages.length) % script.pages.length);
-//};
-//
-//script.api.showPage = showPage;
-//// initialize
-//showPage(0);
-//
-//
-
-
 // PageController.js
 // @input SceneObject[] pages
+// @input SceneObject chatScreen
 
 var current = 0;
+
+function setChatVisible(on) {
+    // hide/show all MeshVisuals (3D) under chatScreen
+    var meshVisuals = script.chatScreen.getComponents("Component.MeshVisual");
+    for (var i = 0; i < meshVisuals.length; i++) {
+        meshVisuals[i].enabled = on;
+    }
+
+    // also handle SpriteVisuals (2D) if you have any
+    var spriteVisuals = script.chatScreen.getComponents("Component.SpriteVisual");
+    for (var i = 0; i < spriteVisuals.length; i++) {
+        spriteVisuals[i].enabled = on;
+    }
+
+    // disable touch so it can’t be interacted with when hidden
+    var touch = script.chatScreen.getComponent("Component.TouchComponent");
+    if (touch) {
+        touch.enabled = on;
+    }
+}
 
 function showPage(idx) {
     print("PageController.showPage(" + idx + ")");
@@ -46,8 +39,21 @@ function showPage(idx) {
             script.pages[i].enabled = false;
         }
     }
+    if (idx === 0) {
+        setChatVisible(false);
+    } else {
+        setChatVisible(true);
+        // …and reparent/reset position if desired…
+    }
+    var chatXform = script.chatScreen.getTransform();
+    if (idx === 0) {
+        // shove it way off-canvas
+        chatXform.setLocalPosition(new vec3(0, -10000, 0));
+    } else {
+        // bring it back
+        chatXform.setLocalPosition(vec3.zero());
+    }
     current = idx;
-    print(script.pages[0].enabled+ ' '+ script.pages[1].enabled);
 }
 
 script.api.nextPage = function() {
