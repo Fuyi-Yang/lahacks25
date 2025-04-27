@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 700
+    size: 704
     values:
       - Base 2.png
       - Base.png
@@ -166,6 +166,9 @@ CollapsedEntities:
       - Scripts/Dog/PetInteraction.js
       - Scripts/PageController.js
       - Scripts/Speech
+      - Scripts/Speech/SpeechToText.js
+      - Scripts/Speech/TextToSpeechOpenAI.js
+      - Scripts/Speech/VisionOpenAI.js
       - Scripts/aiAgent.js
       - Scripts/audioToTextScript.js
       - Scripts/bubbleTouchHandler.js
@@ -700,6 +703,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/package.native
       - UI Panel.lsc
       - UI Toggle.lsc
+      - UI Tooltip.lsc
       - flat.ss_graph
       - pbr.ss_graph
       - simple_pbr.ss_graph

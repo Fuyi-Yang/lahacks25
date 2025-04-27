@@ -1,8 +1,10 @@
 // @input SceneObject interactableButton1
 // @input SceneObject interactableButton2
+// @input SceneObject interactableButton3
 // @input SceneObject prefabA
 // @input SceneObject prefabB
 // @input SceneObject prefabC
+// @input SceneObject prefabD
 // @input float switchBackDelay = 8.0
 
 var currentPrefab = script.prefabA;
@@ -11,10 +13,12 @@ var currentPrefab = script.prefabA;
 script.prefabA.enabled = true;
 script.prefabB.enabled = false;
 script.prefabC.enabled = false;
+script.prefabD.enabled = false;
 
 // Setup buttons using SIK
 setupButtonSIK(script.interactableButton1, () => switchPrefab(script.prefabB));
 setupButtonSIK(script.interactableButton2, () => switchPrefab(script.prefabC));
+setupButtonSIK(script.interactableButton3, () => switchPrefab(script.prefabD));
 
 function setupButtonSIK(buttonObj, callback) {
 

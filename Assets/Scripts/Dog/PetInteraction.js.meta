@@ -28,9 +28,11 @@
   ScriptInputsHidden:
     interactableButton1: false
     interactableButton2: false
+    interactableButton3: false
     prefabA: false
     prefabB: false
     prefabC: false
+    prefabD: false
     switchBackDelay: false
   ScriptTypesHidden:
     {}
@@ -58,6 +60,8 @@
       prefabB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       prefabC: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       switchBackDelay: !<float> 3.000000
+      prefabD: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      interactableButton3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

@@ -36,6 +36,11 @@
     - audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       audioOutputAsset: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
       voice: ""
+      textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textOutput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      ttsComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

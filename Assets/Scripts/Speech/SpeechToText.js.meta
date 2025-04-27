@@ -34,6 +34,9 @@
   DefaultScriptInputs:
     - textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
       interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audioOutputAsset: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      voice: ""
   ScriptTypes:
     -
       {}
