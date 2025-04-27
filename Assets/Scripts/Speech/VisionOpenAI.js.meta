@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/57c67b7a-9952-4135-88dc-42df492508bd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 77c5aa65-ada7-4b0e-90b5-94839cf1e7da
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 77c5aa65-ada7-4b0e-90b5-94839cf1e7da
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5d7e420b-a4af-45d6-a23a-118c2cf6b277
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5d7e420b-a4af-45d6-a23a-118c2cf6b277>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fe73b228-2bd6-4d55-b0e0-ecf78f1be4eb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    image: false
+    interactableObject: false
+    textInput: false
+    textOutput: false
+    ttsComponent: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textOutput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      ttsComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

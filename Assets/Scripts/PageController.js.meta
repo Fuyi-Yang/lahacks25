@@ -26,6 +26,7 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    chatScreen: false
     pages: false
   ScriptTypesHidden:
     {}
@@ -33,6 +34,7 @@
   DefaultScriptInputs:
     - pages: !<reference.SceneObject[]>
         []
+      chatScreen: !<RequiredType.chatScreenController> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
